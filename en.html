@@ -1,641 +1,389 @@
 <!DOCTYPE html>
-<html lang="de" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Führerschein Theorie — Alle Fragen Österreich</title>
-<meta name="description" content="Alle offiziellen Führerschein-Theoriefragen für Österreich Klasse B — kostenlos, mit Bildern und Antworten.">
-<!-- Google AdSense — ersetze ca-pub-XXXXXXXX mit deiner ID -->
-<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script> -->
+<title>TheorieTest — English</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap');
 
-:root {
-  --bg: #0e0f14;
-  --surface: #161820;
-  --surface2: #1c1e28;
-  --border: #252733;
-  --accent: #f0c040;
-  --accent2: #5b8cff;
-  --accent4: #4ecdc4;
-  --text: #e8e9f0;
-  --muted: #7b7d8e;
-  --easy: #4ecdc4;
-  --medium: #f0c040;
-  --hard: #ff6b6b;
-  --correct: #4ecdc4;
-  --wrong: #ff6b6b;
+:root[data-theme="light"] {
+  --bg:#f4f5f7; --surface:#ffffff; --surface2:#f0f1f5; --border:#e2e4ea;
+  --accent:#d4a800; --accent2:#3b6de0; --accent4:#2aada5;
+  --text:#1a1b23; --muted:#8b8fa8;
+  --easy:#2aada5; --medium:#d4a800; --hard:#e05555;
+  --main-q:#3b6de0; --supp-q:#e07830;
+}
+:root[data-theme="dark"] {
+  --bg:#0e0f14; --surface:#161820; --surface2:#1c1e28; --border:#252733;
+  --accent:#f0c040; --accent2:#5b8cff; --accent4:#4ecdc4;
+  --text:#e8e9f0; --muted:#7b7d8e;
+  --easy:#4ecdc4; --medium:#f0c040; --hard:#ff6b6b;
+  --main-q:#5b8cff; --supp-q:#fb923c;
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: var(--bg); color: var(--text); font-family: 'Syne', sans-serif; min-height: 100vh; }
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:'Syne',sans-serif;min-height:100vh;transition:background 0.3s,color 0.3s;}
 
-/* ── TOP BAR ── */
-.topbar {
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
-  padding: 0 24px;
-  height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-.logo { font-size: 18px; font-weight: 800; letter-spacing: -0.5px; }
-.logo span { color: var(--accent); }
-.topbar-right { display: flex; align-items: center; gap: 12px; }
-.progress-text { font-size: 12px; font-family: 'DM Mono', monospace; color: var(--muted); }
-.progress-text span { color: var(--accent); font-weight: 500; }
+.topbar{background:var(--surface);border-bottom:1px solid var(--border);padding:0 16px;height:52px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;gap:12px;}
+.logo{font-size:17px;font-weight:800;letter-spacing:-0.5px;text-decoration:none;color:var(--text);white-space:nowrap;}
+.logo span{color:var(--accent);}
+.topbar-right{display:flex;align-items:center;gap:6px;}
+.progress-text{font-size:11px;font-family:'DM Mono',monospace;color:var(--muted);white-space:nowrap;}
+.progress-text span{color:var(--accent);font-weight:500;}
+.icon-btn{background:var(--surface2);border:1px solid var(--border);border-radius:50px;padding:5px 11px;cursor:pointer;display:flex;align-items:center;gap:5px;font-size:11px;font-family:'DM Mono',monospace;color:var(--muted);transition:all 0.2s;text-decoration:none;white-space:nowrap;}
+.icon-btn:hover{border-color:var(--accent);color:var(--accent);}
 
-/* ── AD SLOT TOP ── */
-.ad-top {
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
-  min-height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--muted);
-  font-size: 11px;
-  font-family: 'DM Mono', monospace;
-}
+.layout{display:grid;grid-template-columns:280px 1fr;min-height:calc(100vh - 52px);}
 
-/* ── LAYOUT ── */
-.layout {
-  display: grid;
-  grid-template-columns: 280px 1fr 280px;
-  gap: 0;
-  min-height: calc(100vh - 116px);
-}
+.sidebar{background:var(--surface);border-right:1px solid var(--border);height:calc(100vh - 52px);position:sticky;top:52px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--border) transparent;display:flex;flex-direction:column;}
 
-/* ── SIDEBAR ── */
-.sidebar {
-  background: var(--surface);
-  border-right: 1px solid var(--border);
-  height: calc(100vh - 116px);
-  position: sticky;
-  top: 116px;
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border) transparent;
-}
-.sidebar-search {
-  padding: 16px;
-  border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 0;
-  background: var(--surface);
-  z-index: 10;
-}
-.search-input {
-  width: 100%;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 8px 12px;
-  color: var(--text);
-  font-size: 13px;
-  font-family: 'DM Mono', monospace;
-  outline: none;
-  transition: border-color 0.2s;
-}
-.search-input:focus { border-color: var(--accent); }
-.search-input::placeholder { color: var(--muted); }
+.filter-section{padding:14px;border-bottom:1px solid var(--border);}
+.filter-title{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:12px;}
+.filter-group{margin-bottom:12px;}
+.filter-group-label{font-size:10px;font-family:'DM Mono',monospace;color:var(--muted);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;}
+.chips{display:flex;gap:5px;flex-wrap:wrap;}
 
-.module-section { border-bottom: 1px solid var(--border); }
-.module-header {
-  padding: 12px 16px;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--muted);
-  font-family: 'DM Mono', monospace;
-  background: rgba(255,255,255,0.02);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.module-header .count { color: var(--accent); }
-.topic-item {
-  padding: 10px 16px;
-  cursor: pointer;
-  transition: background 0.15s;
-  border-bottom: 1px solid rgba(255,255,255,0.03);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-}
-.topic-item:hover { background: rgba(255,255,255,0.04); }
-.topic-item.active { background: rgba(240,192,64,0.08); border-left: 2px solid var(--accent); }
-.topic-name { font-size: 13px; line-height: 1.3; }
-.topic-count { font-size: 11px; font-family: 'DM Mono', monospace; color: var(--muted); white-space: nowrap; }
+.chip{border:1px solid var(--border);border-radius:20px;padding:4px 10px;font-size:11px;font-family:'DM Mono',monospace;color:var(--muted);cursor:pointer;transition:all 0.2s;background:var(--bg);user-select:none;}
+.chip:hover{border-color:var(--muted);}
+.chip.on-Easy{border-color:var(--easy);color:var(--easy);background:rgba(78,205,196,0.1);}
+.chip.on-Medium{border-color:var(--medium);color:var(--medium);background:rgba(240,192,64,0.1);}
+.chip.on-Hard{border-color:var(--hard);color:var(--hard);background:rgba(255,107,107,0.1);}
+.chip.on-main{border-color:var(--main-q);color:var(--main-q);background:rgba(91,140,255,0.1);}
+.chip.on-supplementary{border-color:var(--supp-q);color:var(--supp-q);background:rgba(251,146,60,0.1);}
 
-/* ── MAIN CONTENT ── */
-.main { padding: 24px; max-width: 720px; margin: 0 auto; }
+.reset-btn{width:100%;background:transparent;border:1px dashed var(--border);border-radius:8px;padding:6px;font-size:11px;font-family:'DM Mono',monospace;color:var(--muted);cursor:pointer;transition:all 0.2s;margin-top:2px;}
+.reset-btn:hover{border-color:var(--hard);color:var(--hard);}
 
-/* ── FILTER BAR ── */
-.filter-bar {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.filter-btn {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 6px 14px;
-  font-size: 12px;
-  font-family: 'DM Mono', monospace;
-  color: var(--muted);
-  cursor: pointer;
-  transition: all 0.2s;
-}
-.filter-btn:hover, .filter-btn.active {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: rgba(240,192,64,0.08);
-}
-.filter-btn.f-Easy.active { border-color: var(--easy); color: var(--easy); background: rgba(78,205,196,0.08); }
-.filter-btn.f-Medium.active { border-color: var(--medium); color: var(--medium); background: rgba(240,192,64,0.08); }
-.filter-btn.f-Hard.active { border-color: var(--hard); color: var(--hard); background: rgba(255,107,107,0.08); }
+.sidebar-search{padding:10px 14px;border-bottom:1px solid var(--border);}
+.search-input{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:7px 12px;color:var(--text);font-size:12px;font-family:'DM Mono',monospace;outline:none;transition:border-color 0.2s;}
+.search-input:focus{border-color:var(--accent);}
+.search-input::placeholder{color:var(--muted);}
 
-.results-info {
-  font-size: 12px;
-  font-family: 'DM Mono', monospace;
-  color: var(--muted);
-  margin-bottom: 16px;
-}
-.results-info span { color: var(--accent); }
+.topic-list{flex:1;overflow-y:auto;}
+.module-header{padding:8px 14px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--muted);font-family:'DM Mono',monospace;background:rgba(128,128,128,0.04);display:flex;justify-content:space-between;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:5;}
+.module-cnt{color:var(--accent);}
+.topic-item{padding:8px 14px;cursor:pointer;transition:background 0.15s;border-bottom:1px solid rgba(128,128,128,0.06);display:flex;justify-content:space-between;align-items:flex-start;gap:8px;}
+.topic-item:hover{background:rgba(128,128,128,0.05);}
+.topic-item.active{background:rgba(240,192,64,0.07);border-left:2px solid var(--accent);}
+.topic-item.active .topic-name{color:var(--accent);}
+.topic-name{font-size:12px;line-height:1.4;flex:1;}
+.topic-right{display:flex;flex-direction:column;align-items:flex-end;gap:3px;flex-shrink:0;}
+.topic-count{font-size:12px;font-family:'DM Mono',monospace;color:var(--accent);font-weight:700;}
+.topic-mini{display:flex;gap:3px;}
+.tm{font-size:9px;font-family:'DM Mono',monospace;padding:1px 5px;border-radius:8px;}
+.tm-e{background:rgba(78,205,196,0.12);color:var(--easy);}
+.tm-m{background:rgba(240,192,64,0.12);color:var(--medium);}
+.tm-h{background:rgba(255,107,107,0.12);color:var(--hard);}
 
-/* ── QUESTION CARD ── */
-.q-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  margin-bottom: 16px;
-  overflow: hidden;
-  transition: border-color 0.2s, transform 0.15s;
-  animation: fadeIn 0.3s ease;
-}
-.q-card:hover { border-color: rgba(240,192,64,0.3); }
+.main-wrap{display:flex;flex-direction:column;}
+.main{padding:16px 20px;flex:1;max-width:740px;}
 
-@keyframes fadeIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+.results-info{font-size:12px;font-family:'DM Mono',monospace;color:var(--muted);margin-bottom:14px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.results-count{color:var(--accent);font-weight:700;}
+.filter-tag{font-size:10px;font-family:'DM Mono',monospace;padding:2px 8px;border-radius:10px;background:rgba(240,192,64,0.1);color:var(--accent);border:1px solid rgba(240,192,64,0.2);}
 
-.q-header {
-  padding: 14px 18px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--border);
-  gap: 10px;
-  flex-wrap: wrap;
-}
-.q-id { font-size: 12px; font-family: 'DM Mono', monospace; color: var(--accent); font-weight: 500; }
-.q-meta { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.q-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:12px;overflow:hidden;animation:fadeIn 0.25s ease;}
+.q-card:hover{border-color:rgba(240,192,64,0.25);}
+@keyframes fadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+.q-header{padding:10px 14px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);flex-wrap:wrap;gap:6px;}
+.q-id{font-size:11px;font-family:'DM Mono',monospace;color:var(--accent);font-weight:600;}
+.q-meta{display:flex;gap:4px;flex-wrap:wrap;}
+.pill{display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-family:'DM Mono',monospace;font-weight:600;}
+.pill-Easy{background:rgba(78,205,196,0.12);color:var(--easy);}
+.pill-Medium{background:rgba(240,192,64,0.12);color:var(--medium);}
+.pill-Hard{background:rgba(255,107,107,0.12);color:var(--hard);}
+.pill-main{background:rgba(91,140,255,0.12);color:var(--main-q);}
+.pill-supplementary{background:rgba(251,146,60,0.12);color:var(--supp-q);}
+.q-body{padding:14px;}
+.q-image{margin-bottom:12px;border-radius:8px;overflow:hidden;background:var(--surface2);display:flex;align-items:center;justify-content:center;max-height:240px;}
+.q-image img{max-width:100%;max-height:240px;object-fit:contain;display:block;}
+.q-image.hidden{display:none;}
+.q-text{font-size:14px;font-weight:600;line-height:1.5;margin-bottom:12px;}
+.answers{display:grid;gap:6px;}
+.answer{display:flex;align-items:flex-start;gap:8px;padding:8px 11px;border-radius:7px;background:var(--surface2);border:1px solid transparent;font-size:13px;line-height:1.4;}
+.answer.correct{background:rgba(78,205,196,0.07);border-color:rgba(78,205,196,0.25);color:var(--easy);}
+.answer-marker{width:19px;height:19px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-family:'DM Mono',monospace;font-weight:700;flex-shrink:0;background:var(--border);color:var(--muted);}
+.answer.correct .answer-marker{background:var(--easy);color:#fff;}
 
-.pill {
-  display: inline-block;
-  padding: 3px 10px;
-  border-radius: 20px;
-  font-size: 11px;
-  font-family: 'DM Mono', monospace;
-  font-weight: 500;
-}
-.pill-Easy { background: rgba(78,205,196,0.15); color: var(--easy); }
-.pill-Medium { background: rgba(240,192,64,0.15); color: var(--medium); }
-.pill-Hard { background: rgba(255,107,107,0.15); color: var(--hard); }
-.pill-main { background: rgba(91,140,255,0.15); color: var(--accent2); }
-.pill-supplementary { background: rgba(251,146,60,0.15); color: #fb923c; }
+.load-more-wrap{text-align:center;padding:20px 0;}
+.load-more-btn{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 26px;color:var(--text);font-size:13px;font-weight:600;cursor:pointer;transition:all 0.2s;}
+.load-more-btn:hover{border-color:var(--accent);color:var(--accent);}
 
-.q-body { padding: 18px; }
+.empty{text-align:center;padding:60px 20px;color:var(--muted);font-family:'DM Mono',monospace;font-size:13px;line-height:2;}
 
-.q-image {
-  margin-bottom: 16px;
-  border-radius: 10px;
-  overflow: hidden;
-  background: var(--surface2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-height: 260px;
-}
-.q-image img {
-  max-width: 100%;
-  max-height: 260px;
-  object-fit: contain;
-  display: block;
-}
-.q-image.hidden { display: none; }
+.site-footer{background:var(--surface);border-top:1px solid var(--border);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:11px;font-family:'DM Mono',monospace;color:var(--muted);}
+.site-footer a{color:var(--muted);text-decoration:none;transition:color 0.2s;}
+.site-footer a:hover{color:var(--accent);}
 
-.q-text {
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1.5;
-  margin-bottom: 16px;
-  color: var(--text);
-}
-
-.answers { display: grid; gap: 8px; }
-.answer {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 10px 14px;
-  border-radius: 8px;
-  background: var(--surface2);
-  border: 1px solid transparent;
-  font-size: 13px;
-  line-height: 1.4;
-  transition: all 0.2s;
-}
-.answer.correct {
-  background: rgba(78,205,196,0.08);
-  border-color: rgba(78,205,196,0.3);
-  color: var(--correct);
-}
-.answer-marker {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  font-family: 'DM Mono', monospace;
-  font-weight: 700;
-  flex-shrink: 0;
-  background: var(--border);
-  color: var(--muted);
-}
-.answer.correct .answer-marker {
-  background: var(--correct);
-  color: var(--bg);
-}
-
-/* ── AD BETWEEN QUESTIONS ── */
-.ad-inline {
-  background: var(--surface);
-  border: 1px dashed var(--border);
-  border-radius: 12px;
-  min-height: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--muted);
-  font-size: 11px;
-  font-family: 'DM Mono', monospace;
-  margin-bottom: 16px;
-}
-
-/* ── LOAD MORE ── */
-.load-more-wrap { text-align: center; padding: 24px 0; }
-.load-more-btn {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 12px 32px;
-  color: var(--text);
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-.load-more-btn:hover { border-color: var(--accent); color: var(--accent); }
-
-/* ── RIGHT SIDEBAR (AD) ── */
-.sidebar-right {
-  border-left: 1px solid var(--border);
-  height: calc(100vh - 116px);
-  position: sticky;
-  top: 116px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding: 20px;
-  overflow-y: auto;
-}
-.ad-side {
-  background: var(--surface);
-  border: 1px dashed var(--border);
-  border-radius: 12px;
-  min-height: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--muted);
-  font-size: 11px;
-  font-family: 'DM Mono', monospace;
-  text-align: center;
-}
-.stats-widget {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 16px;
-}
-.stats-widget h4 {
-  font-size: 11px;
-  font-family: 'DM Mono', monospace;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 12px;
-}
-.stat-line {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.04);
-  font-size: 12px;
-}
-.stat-line:last-child { border-bottom: none; }
-.stat-line .val { font-family: 'DM Mono', monospace; font-weight: 700; }
-
-/* ── EMPTY STATE ── */
-.empty {
-  text-align: center;
-  padding: 60px 20px;
-  color: var(--muted);
-  font-family: 'DM Mono', monospace;
-  font-size: 14px;
-}
-
-/* ── RESPONSIVE ── */
-@media (max-width: 1100px) {
-  .layout { grid-template-columns: 240px 1fr; }
-  .sidebar-right { display: none; }
-}
-@media (max-width: 700px) {
-  .layout { grid-template-columns: 1fr; }
-  .sidebar { display: none; }
-  .main { padding: 16px; }
-}
+@media(max-width:700px){.layout{grid-template-columns:1fr;}.sidebar{display:none;}.main{padding:12px;}}
 </style>
 </head>
 <body>
 
-<!-- TOP BAR -->
-
-<!-- LANG SWITCH -->
-<a href="index.html" style="position:fixed;top:12px;right:120px;z-index:200;background:var(--surface);border:1px solid var(--border);border-radius:50px;padding:6px 14px;cursor:pointer;display:flex;align-items:center;gap:6px;font-size:12px;font-family:'DM Mono',monospace;color:var(--muted);transition:all 0.2s;box-shadow:0 2px 8px rgba(0,0,0,0.3);text-decoration:none;" onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--accent)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--muted)'">
-  🌐 <span>EN</span>
-</a>
-<!-- THEME TOGGLE -->
-<button onclick="toggleTheme()" style="position:fixed;top:12px;right:16px;z-index:200;background:var(--surface);border:1px solid var(--border);border-radius:50px;padding:6px 14px;cursor:pointer;display:flex;align-items:center;gap:6px;font-size:12px;font-family:'DM Mono',monospace;color:var(--muted);transition:all 0.2s;box-shadow:0 2px 8px rgba(0,0,0,0.3);" onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--accent)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--muted)'">
-  <span id="themeIcon">☀️</span><span id="themeLabel">Light</span>
-</button>
-
 <div class="topbar">
-  <div class="logo">Theorie<span>Test</span>.at</div>
+  <a class="logo" href="index.html">Theorie<span>Test</span>.at</a>
   <div class="topbar-right">
-    <div class="progress-text">Zeige <span id="showingCount">0</span> von <span id="totalCount">0</span> Fragen</div>
+    <div class="progress-text">Showing <span id="showingCount">0</span> of <span id="totalCount">0</span></div>
+    <a class="icon-btn" href="index.html">🌐 EN</a>
+    <button class="icon-btn" onclick="toggleTheme()"><span id="themeIcon">🌙</span> <span id="themeLabel">Dark</span></button>
   </div>
 </div>
 
-<!-- AD TOP -->
-<div class="ad-top">
-  <!-- AdSense Banner 728x90 -->
-  <!-- <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-XXXXXXXX" data-ad-slot="XXXXXXXXXX"></ins> -->
-  <span>Werbung</span>
-</div>
-
-<!-- LAYOUT -->
 <div class="layout">
-
-  <!-- LEFT SIDEBAR -->
   <div class="sidebar">
+
+    <div class="filter-section">
+      <div class="filter-title">Filters</div>
+
+      <div class="filter-group">
+        <div class="filter-group-label">Difficulty</div>
+        <div class="chips">
+          <div class="chip on-Easy" data-g="diff" data-v="Easy" onclick="toggleChip(this)">Easy</div>
+          <div class="chip on-Medium" data-g="diff" data-v="Medium" onclick="toggleChip(this)">Medium</div>
+          <div class="chip on-Hard" data-g="diff" data-v="Hard" onclick="toggleChip(this)">Hard</div>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-group-label">Type</div>
+        <div class="chips">
+          <div class="chip on-main" data-g="type" data-v="main" onclick="toggleChip(this)">Main</div>
+          <div class="chip on-supplementary" data-g="type" data-v="supplementary" onclick="toggleChip(this)">Supplementary</div>
+        </div>
+      </div>
+
+      <button class="reset-btn" onclick="resetFilters()">↺ Reset all filters</button>
+    </div>
+
     <div class="sidebar-search">
-      <input class="search-input" type="text" placeholder="Thema suchen..." id="topicSearch" oninput="filterTopics()">
+      <input class="search-input" type="text" placeholder="Search topic..." id="topicSearch" oninput="filterTopics()">
     </div>
-    <div id="topicList"></div>
+
+    <div class="topic-list" id="topicList"></div>
   </div>
 
-  <!-- MAIN -->
-  <div class="main">
-    <div class="filter-bar">
-      <button class="filter-btn active" data-g="diff" data-v="all" onclick="setFilter('diff','all',this)">Alle</button>
-      <button class="filter-btn f-Easy" data-g="diff" data-v="Easy" onclick="setFilter('diff','Easy',this)">Easy</button>
-      <button class="filter-btn f-Medium" data-g="diff" data-v="Medium" onclick="setFilter('diff','Medium',this)">Medium</button>
-      <button class="filter-btn f-Hard" data-g="diff" data-v="Hard" onclick="setFilter('diff','Hard',this)">Hard</button>
-      <span style="color:var(--border);padding:0 4px">|</span>
-      <button class="filter-btn active" data-g="type" data-v="all" onclick="setFilter('type','all',this)">Alle Typen</button>
-      <button class="filter-btn" data-g="type" data-v="main" onclick="setFilter('type','main',this)">Hauptfragen</button>
-      <button class="filter-btn" data-g="type" data-v="supplementary" onclick="setFilter('type','supplementary',this)">Ergänzung</button>
+  <div class="main-wrap">
+    <div class="main">
+      <div class="results-info">
+        Showing <span class="results-count" id="resultCount">0</span> questions
+        <span id="filterTags"></span>
+      </div>
+      <div id="questionList"></div>
+      <div class="load-more-wrap" id="loadMoreWrap" style="display:none">
+        <button class="load-more-btn" onclick="loadMore()">Load more ↓</button>
+      </div>
+      <div class="empty" id="emptyState" style="display:none">
+        No questions match your filters.<br>Try adjusting the filters on the left.
+      </div>
     </div>
-    <div class="results-info">Zeige <span id="resultCount">0</span> Fragen</div>
-    <div id="questionList"></div>
-    <div class="load-more-wrap" id="loadMoreWrap" style="display:none">
-      <button class="load-more-btn" onclick="loadMore()">Mehr laden ↓</button>
-    </div>
+    <footer class="site-footer">
+      <span>© 2026 Ezzedeen Saghier</span>
+      <div style="display:flex;gap:16px;">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="mailto:ezsaghier@gmail.com">Kontakt</a>
+      </div>
+    </footer>
   </div>
-
-  <!-- RIGHT SIDEBAR -->
-  <div class="sidebar-right">
-    <!-- AdSense 300x250 -->
-    <div class="ad-side">
-      <!-- <ins class="adsbygoogle" style="display:block;width:300px;height:250px" data-ad-client="ca-pub-XXXXXXXX" data-ad-slot="XXXXXXXXXX"></ins> -->
-      <span>Werbung<br>300×250</span>
-    </div>
-    <div class="stats-widget" id="statsWidget"></div>
-    <div class="ad-side">
-      <span>Werbung<br>300×250</span>
-    </div>
-  </div>
-
 </div>
 
-<footer style="background:var(--surface);border-top:1px solid var(--border);padding:20px 40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12px;font-family:'DM Mono',monospace;color:var(--muted);">
-  <span>© 2026 TheorieTest.at — Ezzedeen Saghier</span>
-  <div style="display:flex;gap:20px;">
-    <a href="impressum.html" style="color:var(--muted);text-decoration:none;" onmouseover="this.style.color='#f0c040'" onmouseout="this.style.color='var(--muted)'">Impressum</a>
-    <a href="datenschutz.html" style="color:var(--muted);text-decoration:none;" onmouseover="this.style.color='#f0c040'" onmouseout="this.style.color='var(--muted)'">Datenschutzerklärung</a>
-    <a href="/cdn-cgi/l/email-protection#f297888193959a9b9780b2959f939b9edc919d9f" style="color:var(--muted);text-decoration:none;" onmouseover="this.style.color='#f0c040'" onmouseout="this.style.color='var(--muted)'">Kontakt</a>
-  </div>
-</footer>
+<script>
+let ALL=[],filtered=[],activeTopic='all',shown=0;
+const PER=20;
+const MARKERS=['A','B','C','D'];
+const F={diff:new Set(['Easy','Medium','Hard']),type:new Set(['main','supplementary'])};
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-let ALL = [];
-let filtered = [];
-let activeTopic = 'all';
-let filters = { diff: 'all', type: 'all' };
-let shown = 0;
-const PER_LOAD = 20;
-
-const MARKERS = ['A','B','C','D'];
-
-function gd(d) {
-  if (d===1||d==='Easy') return 'Easy';
-  if (d===2||d==='Medium') return 'Medium';
-  return 'Hard';
+function toggleChip(chip){
+  const g=chip.dataset.g, v=chip.dataset.v;
+  const onClass=`on-${v}`;
+  if(chip.classList.contains(onClass)){
+    if(F[g].size===1) return; // منع إلغاء آخر فلتر
+    F[g].delete(v);
+    chip.classList.remove(onClass);
+  } else {
+    F[g].add(v);
+    chip.classList.add(onClass);
+  }
+  applyFilters();
 }
 
-function buildTopicList() {
-  const modules = {};
-  ALL.forEach(q => {
-    if (!modules[q.module]) modules[q.module] = {};
-    if (!modules[q.module][q.topic]) modules[q.module][q.topic] = 0;
-    modules[q.module][q.topic]++;
+function resetFilters(){
+  F.diff=new Set(['Easy','Medium','Hard']);
+  F.type=new Set(['main','supplementary']);
+  document.querySelectorAll('.chip').forEach(c=>{
+    const v=c.dataset.v;
+    c.classList.add(`on-${v}`);
+  });
+  applyFilters();
+}
+
+function buildTopicList(){
+  const modules={};
+  ALL.forEach(q=>{
+    if(!modules[q.module]) modules[q.module]={};
+    if(!modules[q.module][q.topic]) modules[q.module][q.topic]={Easy:0,Medium:0,Hard:0};
+    modules[q.module][q.topic][q.difficulty]++;
   });
 
-  const container = document.getElementById('topicList');
-  container.innerHTML = '';
+  const container=document.getElementById('topicList');
+  container.innerHTML='';
 
-  // "All" item
-  const allItem = document.createElement('div');
-  allItem.className = 'topic-item active';
-  allItem.dataset.topic = 'all';
-  allItem.innerHTML = `<span class="topic-name" style="font-weight:700;color:var(--accent)">Alle Fragen</span><span class="topic-count">${ALL.length}</span>`;
-  allItem.onclick = () => selectTopic('all', allItem);
+  const allItem=document.createElement('div');
+  allItem.className='topic-item active';
+  allItem.dataset.topic='all';
+  allItem.innerHTML=`<span class="topic-name" style="font-weight:700">All Questions</span><div class="topic-right"><span class="topic-count" id="cnt-all">${ALL.length}</span></div>`;
+  allItem.onclick=()=>selectTopic('all',allItem);
   container.appendChild(allItem);
 
-  for (const [mod, topics] of Object.entries(modules)) {
-    const modDiv = document.createElement('div');
-    modDiv.className = 'module-section';
-    const total = Object.values(topics).reduce((a,b)=>a+b,0);
-    modDiv.innerHTML = `<div class="module-header"><span>${mod}</span><span class="count">${total}</span></div>`;
-
-    for (const [topic, count] of Object.entries(topics)) {
-      const item = document.createElement('div');
-      item.className = 'topic-item';
-      item.dataset.topic = topic;
-      item.dataset.name = topic.toLowerCase();
-      item.innerHTML = `<span class="topic-name">${topic}</span><span class="topic-count">${count}</span>`;
-      item.onclick = () => selectTopic(topic, item);
+  for(const[mod,topics] of Object.entries(modules)){
+    const modDiv=document.createElement('div');
+    const mid=mod.replace(/\s/g,'_');
+    modDiv.innerHTML=`<div class="module-header"><span>${mod}</span><span class="module-cnt" id="mod-${mid}">0</span></div>`;
+    for(const[topic,stats] of Object.entries(topics)){
+      const item=document.createElement('div');
+      item.className='topic-item';
+      item.dataset.topic=topic;
+      item.dataset.name=topic.toLowerCase();
+      const tid=encodeTopicId(topic);
+      item.innerHTML=`
+        <span class="topic-name">${topic}</span>
+        <div class="topic-right">
+          <span class="topic-count" id="cnt-${tid}">0</span>
+          <div class="topic-mini">
+            <span class="tm tm-e" id="e-${tid}">E:${stats.Easy}</span>
+            <span class="tm tm-m" id="m-${tid}">M:${stats.Medium}</span>
+            <span class="tm tm-h" id="h-${tid}">H:${stats.Hard}</span>
+          </div>
+        </div>`;
+      item.onclick=()=>selectTopic(topic,item);
       modDiv.appendChild(item);
     }
     container.appendChild(modDiv);
   }
 }
 
-function filterTopics() {
-  const s = document.getElementById('topicSearch').value.toLowerCase();
-  document.querySelectorAll('.topic-item[data-name]').forEach(item => {
-    item.style.display = item.dataset.name.includes(s) ? '' : 'none';
+function encodeTopicId(t){ return t.replace(/[\s,\/\-äöüÄÖÜß]/g,'_'); }
+
+function updateCounts(){
+  const tc={}, mc={};
+  ALL.forEach(q=>{
+    if(!F.diff.has(q.difficulty)||!F.type.has(q.type)) return;
+    tc[q.topic]=(tc[q.topic]||0)+1;
+    mc[q.module]=(mc[q.module]||0)+1;
+  });
+  const allTotal=Object.values(tc).reduce((a,b)=>a+b,0);
+  const allEl=document.getElementById('cnt-all');
+  if(allEl) allEl.textContent=allTotal;
+  document.querySelectorAll('.topic-item[data-topic]').forEach(item=>{
+    const topic=item.dataset.topic;
+    if(topic==='all') return;
+    const tid=encodeTopicId(topic);
+    const el=document.getElementById(`cnt-${tid}`);
+    if(el) el.textContent=tc[topic]||0;
+  });
+  for(const[mod,cnt] of Object.entries(mc)){
+    const el=document.getElementById(`mod-${mod.replace(/\s/g,'_')}`);
+    if(el) el.textContent=cnt;
+  }
+  // تحديث الوحدات الفارغة
+  document.querySelectorAll('[id^="mod-"]').forEach(el=>{
+    if(!el.textContent||el.textContent==='0'){
+      const mod=el.id.replace('mod-','').replace(/_/g,' ');
+      if(!mc[mod]) el.textContent='0';
+    }
   });
 }
 
-function selectTopic(topic, el) {
-  document.querySelectorAll('.topic-item').forEach(i => i.classList.remove('active'));
+function filterTopics(){
+  const s=document.getElementById('topicSearch').value.toLowerCase();
+  document.querySelectorAll('.topic-item[data-name]').forEach(i=>{
+    i.style.display=i.dataset.name.includes(s)?'':'none';
+  });
+}
+
+function selectTopic(topic,el){
+  document.querySelectorAll('.topic-item').forEach(i=>i.classList.remove('active'));
   el.classList.add('active');
-  activeTopic = topic;
+  activeTopic=topic;
   applyFilters();
 }
 
-function setFilter(key, val, btn) {
-  filters[key] = val;
-  document.querySelectorAll(`[data-g="${key}"]`).forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  applyFilters();
-}
-
-function applyFilters() {
-  filtered = ALL.filter(q => {
-    const tOk = activeTopic === 'all' || q.topic === activeTopic;
-    const dOk = filters.diff === 'all' || q.difficulty === filters.diff;
-    const tyOk = filters.type === 'all' || q.type === filters.type;
-    return tOk && dOk && tyOk;
+function applyFilters(){
+  filtered=ALL.filter(q=>{
+    return(activeTopic==='all'||q.topic===activeTopic)&&
+           F.diff.has(q.difficulty)&&
+           F.type.has(q.type);
   });
-  shown = 0;
-  document.getElementById('resultCount').textContent = filtered.length;
-  document.getElementById('questionList').innerHTML = '';
-  updateStats();
+  shown=0;
+  document.getElementById('resultCount').textContent=filtered.length;
+  document.getElementById('questionList').innerHTML='';
+  document.getElementById('emptyState').style.display=filtered.length===0?'block':'none';
+  document.getElementById('loadMoreWrap').style.display='none';
+  updateCounts();
+  updateFilterTags();
   loadMore();
 }
 
-function updateStats() {
-  const easy = filtered.filter(q=>q.difficulty==='Easy').length;
-  const med = filtered.filter(q=>q.difficulty==='Medium').length;
-  const hard = filtered.filter(q=>q.difficulty==='Hard').length;
-  const main = filtered.filter(q=>q.type==='main').length;
-  document.getElementById('statsWidget').innerHTML = `
-    <h4>Aktuelle Auswahl</h4>
-    <div class="stat-line"><span>Gesamt</span><span class="val" style="color:var(--accent)">${filtered.length}</span></div>
-    <div class="stat-line"><span style="color:var(--easy)">Easy</span><span class="val" style="color:var(--easy)">${easy}</span></div>
-    <div class="stat-line"><span style="color:var(--medium)">Medium</span><span class="val" style="color:var(--medium)">${med}</span></div>
-    <div class="stat-line"><span style="color:var(--hard)">Hard</span><span class="val" style="color:var(--hard)">${hard}</span></div>
-    <div class="stat-line"><span>Hauptfragen</span><span class="val">${main}</span></div>
-    <div class="stat-line"><span>Ergänzung</span><span class="val">${filtered.length - main}</span></div>
-  `;
+function updateFilterTags(){
+  const tags=[];
+  if(F.diff.size<3) [...F.diff].forEach(d=>tags.push(`<span class="filter-tag">${d}</span>`));
+  if(F.type.size<2) [...F.type].forEach(t=>tags.push(`<span class="filter-tag">${t==='main'?'Main':'Supplementary'}</span>`));
+  if(activeTopic!=='all') tags.push(`<span class="filter-tag">📍 ${activeTopic}</span>`);
+  document.getElementById('filterTags').innerHTML=tags.join('');
 }
 
-function buildCard(q, index) {
-  const isGif = q.image && q.image >= 100000;
-  const imgUrl = q.image ? `https://img.f-online.at/${q.image}.${isGif ? 'gif' : 'jpg'}` : null;
-  const imgGifUrl = null; // لم نعد نحتاجه
-
-  const answersHtml = q.answers.map((a, i) => `
-    <div class="answer ${a.correct ? 'correct' : ''}">
-      <div class="answer-marker">${MARKERS[i]}</div>
-      <div>${a.text}</div>
+function buildCard(q){
+  const isGif=q.image&&q.image>=100000;
+  const imgUrl=q.image?`https://img.f-online.at/${q.image}.${isGif?'gif':'jpg'}`:null;
+  const imgHtml=imgUrl?`<div class="q-image" id="img-${q.id}"><img src="${imgUrl}" onerror="document.getElementById('img-${q.id}').classList.add('hidden')" alt="Q${q.id}"></div>`:'';
+  const answers=q.answers.map((a,i)=>`<div class="answer ${a.correct?'correct':''}"><div class="answer-marker">${MARKERS[i]}</div><div>${a.text}</div></div>`).join('');
+  return `<div class="q-card">
+    <div class="q-header">
+      <span class="q-id">Question #${q.id}</span>
+      <div class="q-meta"><span class="pill pill-${q.difficulty}">${q.difficulty}</span><span class="pill pill-${q.type}">${q.type==='main'?'Main':'Supplementary'}</span></div>
     </div>
-  `).join('');
-
-  const imgHtml = q.image ? `
-    <div class="q-image" id="img-wrap-${q.id}">
-      <img src="${imgUrl}"
-        onerror="document.getElementById('img-wrap-'+q.id+').classList.add('hidden')"
-        alt="Frage ${q.id}">
-    </div>` : '';
-
-  return `
-    <div class="q-card">
-      <div class="q-header">
-        <span class="q-id">Frage #${q.id}</span>
-        <div class="q-meta">
-          <span class="pill pill-${q.difficulty}">${q.difficulty}</span>
-          <span class="pill pill-${q.type}">${q.type === 'main' ? 'Hauptfrage' : 'Ergänzung'}</span>
-        </div>
-      </div>
-      <div class="q-body">
-        ${imgHtml}
-        <div class="q-text">${q.text}</div>
-        <div class="answers">${answersHtml}</div>
-      </div>
-    </div>`;
+    <div class="q-body">${imgHtml}<div class="q-text">${q.text}</div><div class="answers">${answers}</div></div>
+  </div>`;
 }
 
-function loadMore() {
-  const batch = filtered.slice(shown, shown + PER_LOAD);
-  const container = document.getElementById('questionList');
-
-  batch.forEach((q, i) => {
-    // إعلان كل 10 أسئلة
-    if ((shown + i) > 0 && (shown + i) % 10 === 0) {
-      container.innerHTML += `
-        <div class="ad-inline">
-          <!-- AdSense In-Feed -->
-          <!-- <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-client="ca-pub-XXXXXXXX" data-ad-slot="XXXXXXXXXX"></ins> -->
-          <span>Werbung</span>
-        </div>`;
-    }
-    container.innerHTML += buildCard(q, shown + i);
-  });
-
-  shown += batch.length;
-  document.getElementById('showingCount').textContent = shown;
-  document.getElementById('totalCount').textContent = filtered.length;
-
-  const wrap = document.getElementById('loadMoreWrap');
-  wrap.style.display = shown < filtered.length ? 'block' : 'none';
+function loadMore(){
+  if(filtered.length===0) return;
+  const batch=filtered.slice(shown,shown+PER);
+  const container=document.getElementById('questionList');
+  batch.forEach(q=>{container.innerHTML+=buildCard(q);});
+  shown+=batch.length;
+  document.getElementById('showingCount').textContent=shown;
+  document.getElementById('totalCount').textContent=filtered.length;
+  document.getElementById('loadMoreWrap').style.display=shown<filtered.length?'block':'none';
 }
 
-// ── LOAD DATA ──
-async function init() {
-  try {
-    const res = await fetch('fahrschule_full.json');
-    const raw = await res.json();
-    ALL = raw.map(q => ({ ...q, difficulty: gd(q.difficulty) }));
-    filtered = [...ALL];
+async function init(){
+  try{
+    const res=await fetch('fahrschule_full.json');
+    ALL=await res.json();
+    filtered=[...ALL];
     buildTopicList();
-    document.getElementById('resultCount').textContent = ALL.length;
-    updateStats();
+    updateCounts();
+    document.getElementById('resultCount').textContent=ALL.length;
+    document.getElementById('totalCount').textContent=ALL.length;
     loadMore();
-  } catch(e) {
-    document.getElementById
+  }catch(e){
+    document.getElementById('questionList').innerHTML='<div class="empty">⚠️ fahrschule_full.json not found.</div>';
+  }
+}
+
+function getTheme(){return localStorage.getItem('theme')||'light';}
+function applyTheme(t){
+  document.documentElement.setAttribute('data-theme',t);
+  document.getElementById('themeIcon').textContent=t==='dark'?'☀️':'🌙';
+  document.getElementById('themeLabel').textContent=t==='dark'?'Light':'Dark';
+  localStorage.setItem('theme',t);
+}
+function toggleTheme(){applyTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark');}
+
+applyTheme(getTheme());
+init();
+</script>
+</body>
+</html>
