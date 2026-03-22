@@ -441,6 +441,15 @@ body { background: var(--bg); color: var(--text); font-family: 'Syne', sans-seri
 
 </div>
 
+<footer style="background:var(--surface);border-top:1px solid var(--border);padding:20px 40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12px;font-family:'DM Mono',monospace;color:var(--muted);">
+  <span>© 2026 TheorieTest.at — Ezzedeen Saghier</span>
+  <div style="display:flex;gap:20px;">
+    <a href="impressum.html" style="color:var(--muted);text-decoration:none;" onmouseover="this.style.color='#f0c040'" onmouseout="this.style.color='var(--muted)'">Impressum</a>
+    <a href="datenschutz.html" style="color:var(--muted);text-decoration:none;" onmouseover="this.style.color='#f0c040'" onmouseout="this.style.color='var(--muted)'">Datenschutzerklärung</a>
+    <a href="mailto:ezsaghier@gmail.com" style="color:var(--muted);text-decoration:none;" onmouseover="this.style.color='#f0c040'" onmouseout="this.style.color='var(--muted)'">Kontakt</a>
+  </div>
+</footer>
+
 <script>
 let ALL = [];
 let filtered = [];
@@ -626,13 +635,3 @@ async function init() {
 init();
 </script>
 
-<footer style="background:var(--surface);border-top:1px solid var(--border);padding:20px 40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12px;font-family:'DM Mono',monospace;color:var(--muted);">
-  <span>© 2026 TheorieTest.at — Ezzedeen Saghier</span>
-  <div style="display:flex;gap:20px;">
-    <a href="impressum.html" style="color:var(--muted);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--muted)'">Impressum</a>
-    <a href="datenschutz.html" style="color:var(--muted);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--muted)'">Datenschutzerklärung</a>
-    <a href="mailto:ezsaghier@gmail.com" style="color:var(--muted);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--muted)'">Kontakt</a>
-  </div>
-</footer>
-</body>
-</html>
