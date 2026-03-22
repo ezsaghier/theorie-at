@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,9 +34,23 @@ ul li{font-size:14px;line-height:1.8;color:var(--text);margin-bottom:4px;}
 .row a{color:var(--accent);text-decoration:none;}
 .row a:hover{text-decoration:underline;}
 .updated{font-size:12px;font-family:'DM Mono',monospace;color:var(--muted);margin-top:32px;text-align:center;}
+
+:root[data-theme="light"] {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --border: #e2e4ea;
+  --text: #1a1b23;
+  --muted: #8b8fa8;
+  --accent: #d4a800;
+}
 </style>
 </head>
 <body>
+
+<!-- LANG + THEME BTNS -->
+<a href="index.html" style="position:fixed;top:12px;right:120px;z-index:200;background:var(--surface);border:1px solid var(--border);border-radius:50px;padding:6px 14px;display:flex;align-items:center;gap:6px;font-size:12px;font-family:'DM Mono',monospace;color:var(--muted);transition:all 0.2s;box-shadow:0 2px 8px rgba(0,0,0,0.2);text-decoration:none;" onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--accent)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--muted)'">🌐 <span>EN</span></a>
+<button onclick="toggleTheme()" style="position:fixed;top:12px;right:16px;z-index:200;background:var(--surface);border:1px solid var(--border);border-radius:50px;padding:6px 14px;cursor:pointer;display:flex;align-items:center;gap:6px;font-size:12px;font-family:'DM Mono',monospace;color:var(--muted);transition:all 0.2s;box-shadow:0 2px 8px rgba(0,0,0,0.2);" onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--accent)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--muted)'"><span id="themeIcon">🌙</span><span id="themeLabel">Dark</span></button>
+
 <div class="topbar">
   <a class="logo" href="index.html">Theorie<span>Test</span>.at</a>
   <a class="back" href="index.html">← Zurück</a>
@@ -49,7 +63,7 @@ ul li{font-size:14px;line-height:1.8;color:var(--text);margin-bottom:4px;}
     <h2>1. Verantwortlicher</h2>
     <div class="row"><span class="label">Name</span><span>Ezzedeen Saghier</span></div>
     <div class="row"><span class="label">Adresse</span><span>8020 Graz, Österreich</span></div>
-    <div class="row"><span class="label">E-Mail</span><span><a href="mailto:ezsaghier@gmail.com">ezsaghier@gmail.com</a></span></div>
+    <div class="row"><span class="label">E-Mail</span><span><a href="/cdn-cgi/l/email-protection#8ce9f6ffedebe4e5e9feccebe1ede5e0a2efe3e1"><span class="__cf_email__" data-cfemail="0d68777e6c6a6564687f4d6a606c6461236e6260">[email&#160;protected]</span></a></span></div>
   </div>
 
   <div class="section">
@@ -99,7 +113,7 @@ ul li{font-size:14px;line-height:1.8;color:var(--text);margin-bottom:4px;}
       <li><strong>Widerspruchsrecht</strong> (Art. 21 DSGVO)</li>
       <li><strong>Recht auf Widerruf der Einwilligung</strong> (Art. 7 Abs. 3 DSGVO)</li>
     </ul>
-    <p>Zur Ausübung Ihrer Rechte wenden Sie sich bitte an: <a href="mailto:ezsaghier@gmail.com">ezsaghier@gmail.com</a></p>
+    <p>Zur Ausübung Ihrer Rechte wenden Sie sich bitte an: <a href="/cdn-cgi/l/email-protection#4e2b343d2f2926272b3c0e29232f2722602d2123"><span class="__cf_email__" data-cfemail="d6b3aca5b7b1bebfb3a496b1bbb7bfbaf8b5b9bb">[email&#160;protected]</span></a></p>
   </div>
 
   <div class="section">
@@ -111,11 +125,4 @@ ul li{font-size:14px;line-height:1.8;color:var(--text);margin-bottom:4px;}
   </div>
 
   <div class="section">
-    <h2>7. Aktualität dieser Erklärung</h2>
-    <p>Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf zu aktualisieren, um sie an geänderte Rechtslagen oder Änderungen unserer Dienstleistungen anzupassen.</p>
-  </div>
-
-  <div class="updated">Stand: März 2026</div>
-</div>
-</body>
-</html>
+    <h2>7. Aktualität dieser Erk
