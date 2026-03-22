@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressum — TheorieTest.at</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap');
+:root {
+  --bg:#0e0f14; --surface:#161820; --border:#252733;
+  --accent:#f0c040; --text:#e8e9f0; --muted:#7b7d8e;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:'Syne',sans-serif;min-height:100vh;}
+.topbar{background:var(--surface);border-bottom:1px solid var(--border);padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;}
+.logo{font-size:18px;font-weight:800;letter-spacing:-0.5px;text-decoration:none;color:var(--text);}
+.logo span{color:var(--accent);}
+.back{font-size:13px;font-family:'DM Mono',monospace;color:var(--muted);text-decoration:none;transition:color 0.2s;}
+.back:hover{color:var(--accent);}
+.container{max-width:720px;margin:0 auto;padding:48px 24px;}
+h1{font-size:36px;font-weight:800;letter-spacing:-1px;margin-bottom:8px;}
+h1 span{color:var(--accent);}
+.subtitle{font-size:14px;font-family:'DM Mono',monospace;color:var(--muted);margin-bottom:40px;}
+.section{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:28px;margin-bottom:20px;}
+.section h2{font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:16px;}
+.row{display:flex;gap:12px;margin-bottom:10px;font-size:14px;line-height:1.6;}
+.row .label{color:var(--muted);min-width:140px;font-family:'DM Mono',monospace;font-size:13px;}
+.row .value{color:var(--text);}
+.row a{color:var(--accent);text-decoration:none;}
+.row a:hover{text-decoration:underline;}
+p{font-size:14px;line-height:1.8;color:var(--text);margin-bottom:10px;}
+p:last-child{margin-bottom:0;}
+.note{font-size:13px;color:var(--muted);font-family:'DM Mono',monospace;margin-top:8px;}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a class="logo" href="index.html">Theorie<span>Test</span>.at</a>
+  <a class="back" href="index.html">← Zurück</a>
+</div>
+<div class="container">
+  <h1>Impressum <span>&</span><br>Offenlegung</h1>
+  <div class="subtitle">Angaben gemäß § 5 ECG und § 25 MedienG</div>
+
+  <div class="section">
+    <h2>Betreiber</h2>
+    <div class="row"><span class="label">Name</span><span class="value">Ezzedeen Saghier</span></div>
+    <div class="row"><span class="label">Adresse</span><span class="value">8020 Graz, Österreich</span></div>
+    <div class="row"><span class="label">E-Mail</span><span class="value"><a href="mailto:ezsaghier@gmail.com">ezsaghier@gmail.com</a></span></div>
+  </div>
+
+  <div class="section">
+    <h2>Zweck der Website</h2>
+    <p>Diese Website dient der kostenlosen Bereitstellung von Lernmaterialien zur Vorbereitung auf die österreichische Führerschein-Theorieprüfung (Klasse B).</p>
+    <p>Die dargestellten Fragen und Antworten basieren auf dem offiziellen Fragenkatalog des Bundesministeriums für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie (BMK) der Republik Österreich.</p>
+  </div>
+
+  <div class="section">
+    <h2>Haftungsausschluss</h2>
+    <p>Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte wird jedoch keine Gewähr übernommen.</p>
+    <p>Diese Website ersetzt keine offizielle Fahrschule. Für die Prüfungsvorbereitung empfehlen wir zusätzlich den Besuch einer zugelassenen Fahrschule in Österreich.</p>
+  </div>
+
+  <div class="section">
+    <h2>Urheberrecht</h2>
+    <p>Die offiziellen Prüfungsfragen sind Eigentum der Republik Österreich (BMK) und stehen der Öffentlichkeit zur Verfügung. Die Gestaltung und der Quellcode dieser Website sind urheberrechtlich geschützt.</p>
+  </div>
+
+  <div class="section">
+    <h2>Streitschlichtung</h2>
+    <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:</p>
+    <div class="row"><span class="label">OS-Plattform</span><span class="value"><a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a></span></div>
+    <p class="note">Wir sind nicht verpflichtet und nicht bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+  </div>
+
+  <div class="section">
+    <h2>Aufsichtsbehörde</h2>
+    <div class="row"><span class="label">Behörde</span><span class="value">Bezirkshauptmannschaft Graz-Umgebung</span></div>
+    <div class="row"><span class="label">Land</span><span class="value">Steiermark, Österreich</span></div>
+  </div>
+
+</div>
+</body>
+</html>
