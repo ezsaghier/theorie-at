@@ -6,7 +6,6 @@
     <title>TheorieTest — English</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap");
-
       :root[data-theme="light"] {
         --bg: #f4f5f7;
         --surface: #ffffff;
@@ -39,7 +38,6 @@
         --main-q: #5b8cff;
         --supp-q: #fb923c;
       }
-
       * {
         margin: 0;
         padding: 0;
@@ -54,8 +52,6 @@
           background 0.3s,
           color 0.3s;
       }
-
-      /* TOPBAR */
       .topbar {
         background: var(--surface);
         border-bottom: 1px solid var(--border);
@@ -115,15 +111,11 @@
         border-color: var(--accent);
         color: var(--accent);
       }
-
-      /* LAYOUT */
       .layout {
         display: grid;
         grid-template-columns: 280px 1fr;
         min-height: calc(100vh - 52px);
       }
-
-      /* SIDEBAR */
       .sidebar {
         background: var(--surface);
         border-right: 1px solid var(--border);
@@ -136,8 +128,6 @@
         display: flex;
         flex-direction: column;
       }
-
-      /* FILTER SECTION */
       .filter-section {
         padding: 14px;
         border-bottom: 1px solid var(--border);
@@ -168,29 +158,26 @@
         flex-wrap: wrap;
       }
 
-      /* CHIP STATES */
+      /* CHIP — border always visible, color changes */
       .chip {
-        border: 1px solid var(--border);
         border-radius: 20px;
         padding: 4px 10px;
         font-size: 11px;
         font-family: "DM Mono", monospace;
-        color: var(--muted);
         cursor: pointer;
         transition: all 0.15s;
-        background: var(--bg);
         user-select: none;
+        border: 1px solid var(--border); /* always has border */
+        color: var(--muted);
+        background: var(--bg);
       }
-      /* ALL chip active */
+      /* ALL active = accent */
       .chip.all-on {
         border-color: var(--accent);
         color: var(--accent);
         background: rgba(240, 192, 64, 0.1);
       }
-      /* individual chip active */
-      .chip.on {
-        font-weight: 600;
-      }
+      /* individual active */
       .chip.on-Easy {
         border-color: var(--easy);
         color: var(--easy);
@@ -216,9 +203,12 @@
         color: var(--supp-q);
         background: rgba(251, 146, 60, 0.1);
       }
-      /* dim when not selected */
+      /* dim = grayed text but border stays */
       .chip.dim {
-        opacity: 0.35;
+        color: var(--muted);
+        background: var(--bg);
+        border-color: var(--border);
+        opacity: 0.5;
       }
 
       .reset-btn {
@@ -238,8 +228,6 @@
         border-color: var(--hard);
         color: var(--hard);
       }
-
-      /* SEARCH + TOPICS */
       .sidebar-search {
         padding: 10px 14px;
         border-bottom: 1px solid var(--border);
@@ -277,13 +265,16 @@
         background: rgba(128, 128, 128, 0.04);
         display: flex;
         justify-content: space-between;
+        align-items: center;
         border-bottom: 1px solid var(--border);
         position: sticky;
         top: 0;
         z-index: 5;
       }
       .module-cnt {
-        color: var(--accent);
+        font-size: 13px;
+        font-weight: 700;
+        font-family: "DM Mono", monospace;
       }
       .topic-item {
         padding: 8px 14px;
@@ -292,7 +283,7 @@
         border-bottom: 1px solid rgba(128, 128, 128, 0.06);
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         gap: 8px;
       }
       .topic-item:hover {
@@ -310,43 +301,13 @@
         line-height: 1.4;
         flex: 1;
       }
-      .topic-right {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 3px;
+      .topic-cnt {
+        font-size: 13px;
+        font-weight: 700;
+        font-family: "DM Mono", monospace;
         flex-shrink: 0;
       }
-      .topic-count {
-        font-size: 12px;
-        font-family: "DM Mono", monospace;
-        color: var(--accent);
-        font-weight: 700;
-      }
-      .topic-mini {
-        display: flex;
-        gap: 3px;
-      }
-      .tm {
-        font-size: 9px;
-        font-family: "DM Mono", monospace;
-        padding: 1px 5px;
-        border-radius: 8px;
-      }
-      .tm-e {
-        background: rgba(78, 205, 196, 0.12);
-        color: var(--easy);
-      }
-      .tm-m {
-        background: rgba(240, 192, 64, 0.12);
-        color: var(--medium);
-      }
-      .tm-h {
-        background: rgba(255, 107, 107, 0.12);
-        color: var(--hard);
-      }
 
-      /* MAIN */
       .main-wrap {
         display: flex;
         flex-direction: column;
@@ -367,7 +328,6 @@
         flex-wrap: wrap;
       }
       .results-count {
-        color: var(--accent);
         font-weight: 700;
       }
       .filter-tag {
@@ -380,7 +340,6 @@
         border: 1px solid rgba(240, 192, 64, 0.2);
       }
 
-      /* QUESTION CARD */
       .q-card {
         background: var(--surface);
         border: 1px solid var(--border);
@@ -448,8 +407,6 @@
         background: rgba(251, 146, 60, 0.12);
         color: var(--supp-q);
       }
-
-      /* LINKED QUESTION TOGGLE BTN */
       .linked-btn {
         display: inline-flex;
         align-items: center;
@@ -478,8 +435,6 @@
       .linked-btn-main:hover {
         background: rgba(91, 140, 255, 0.1);
       }
-
-      /* SLIDE PANEL */
       .linked-panel {
         overflow: hidden;
         max-height: 0;
@@ -489,13 +444,18 @@
         opacity: 0;
       }
       .linked-panel.open {
-        max-height: 600px;
+        max-height: 700px;
         opacity: 1;
       }
       .linked-inner {
-        border-top: 1px dashed var(--border);
         padding: 14px;
         background: var(--surface2);
+      }
+      .linked-inner.above {
+        border-bottom: 1px dashed var(--border);
+      }
+      .linked-inner.below {
+        border-top: 1px dashed var(--border);
       }
       .linked-label {
         font-size: 10px;
@@ -508,11 +468,6 @@
         align-items: center;
         gap: 6px;
       }
-      .linked-label span {
-        font-size: 14px;
-      }
-
-      /* QUESTION BODY */
       .q-body {
         padding: 14px;
       }
@@ -582,8 +537,6 @@
         background: var(--easy);
         color: #fff;
       }
-
-      /* LOAD MORE */
       .load-more-wrap {
         text-align: center;
         padding: 20px 0;
@@ -611,8 +564,6 @@
         font-size: 13px;
         line-height: 2;
       }
-
-      /* FOOTER */
       .site-footer {
         background: var(--surface);
         border-top: 1px solid var(--border);
@@ -634,7 +585,6 @@
       .site-footer a:hover {
         color: var(--accent);
       }
-
       @media (max-width: 700px) {
         .layout {
           grid-template-columns: 1fr;
@@ -667,12 +617,11 @@
       <div class="sidebar">
         <div class="filter-section">
           <div class="filter-title">Filters</div>
-
           <div class="filter-group">
             <div class="filter-group-label">Difficulty</div>
-            <div class="chips" id="diffChips">
+            <div class="chips">
               <div
-                class="chip all-on"
+                class="chip"
                 data-g="diff"
                 data-v="ALL"
                 onclick="clickChip(this)"
@@ -680,7 +629,7 @@
                 All
               </div>
               <div
-                class="chip all-on"
+                class="chip"
                 data-g="diff"
                 data-v="Easy"
                 onclick="clickChip(this)"
@@ -688,7 +637,7 @@
                 Easy
               </div>
               <div
-                class="chip all-on"
+                class="chip"
                 data-g="diff"
                 data-v="Medium"
                 onclick="clickChip(this)"
@@ -696,7 +645,7 @@
                 Medium
               </div>
               <div
-                class="chip all-on"
+                class="chip"
                 data-g="diff"
                 data-v="Hard"
                 onclick="clickChip(this)"
@@ -705,12 +654,11 @@
               </div>
             </div>
           </div>
-
           <div class="filter-group">
             <div class="filter-group-label">Type</div>
-            <div class="chips" id="typeChips">
+            <div class="chips">
               <div
-                class="chip all-on"
+                class="chip"
                 data-g="type"
                 data-v="ALL"
                 onclick="clickChip(this)"
@@ -718,7 +666,7 @@
                 All
               </div>
               <div
-                class="chip all-on"
+                class="chip"
                 data-g="type"
                 data-v="main"
                 onclick="clickChip(this)"
@@ -726,7 +674,7 @@
                 Main
               </div>
               <div
-                class="chip all-on"
+                class="chip"
                 data-g="type"
                 data-v="supplementary"
                 onclick="clickChip(this)"
@@ -735,12 +683,10 @@
               </div>
             </div>
           </div>
-
           <button class="reset-btn" onclick="resetFilters()">
             ↺ Reset all filters
           </button>
         </div>
-
         <div class="sidebar-search">
           <input
             class="search-input"
@@ -790,40 +736,66 @@
       const PER = 20,
         MARKERS = ["A", "B", "C", "D"];
       let BY_ID = {};
-
-      // فلاتر: null = ALL، string = قيمة محددة
       const F = { diff: null, type: null };
 
-      // ── CHIP LOGIC ──
+      // ── TRANSLATIONS ──
+      const TR = {
+        Grundwissen: "General Knowledge",
+        "B-Fragen": "Class B Questions",
+        Gefahrenzeichen: "Hazard Signs",
+        Verbotszeichen: "Prohibition Signs",
+        "Gebotszeichen, Vorrangzeichen": "Mandatory & Priority Signs",
+        Hinweiszeichen: "Information Signs",
+        Vorrang: "Right of Way",
+        Partnerkunde: "Partner Knowledge",
+        "Fahrtauglichkeit, Gefahrenlehre": "Fitness to Drive & Hazard Theory",
+        "Allgemeine Fahrordnung, Tunnel": "General Traffic Rules & Tunnels",
+        "Besondere Verkehrsräume": "Special Traffic Areas",
+        "Wahl der Fahrgeschwindigkeit": "Choosing Driving Speed",
+        "Halten, Parken / Umkehren, Linkszufahren":
+          "Stopping, Parking & Turning",
+        "Fahrgeschwindigkeit und Sichtweite": "Speed & Visibility",
+        Überholen: "Overtaking",
+        "Bewegen im Verkehr": "Moving in Traffic",
+        "Lenkerpflichten, Vormerkungen, Unfall": "Driver Duties & Accidents",
+        Eisenbahnkreuzungen: "Railway Crossings",
+        "Geregelte Kreuzungen": "Controlled Intersections",
+        "B - Rechtsvorschriften": "B - Legal Regulations",
+        "B - Personenbeförderung, Ladung, Anhänger":
+          "B - Passengers, Load & Trailers",
+        "B - Fahrzeugtechnik, Winterbetrieb": "B - Vehicle Technology & Winter",
+        "B - Gefahrenlehre, Antriebe, Pannen": "B - Hazard Theory & Breakdowns",
+        "B - Fahrdynamik, Bremsanlage": "B - Vehicle Dynamics & Brakes",
+      };
+      const t = (k) => TR[k] || k;
+
+      // ── COUNT COLOR based on diff filter ──
+      function cntColor() {
+        if (F.diff === "Easy") return "var(--easy)";
+        if (F.diff === "Medium") return "var(--medium)";
+        if (F.diff === "Hard") return "var(--hard)";
+        return "var(--accent)";
+      }
+
+      // ── CHIPS ──
       function clickChip(chip) {
         const g = chip.dataset.g,
           v = chip.dataset.v;
-        if (v === "ALL") {
-          F[g] = null;
-        } else {
-          F[g] = F[g] === v ? null : v; // toggle
-        }
+        F[g] = v === "ALL" || F[g] === v ? null : v;
         renderChips(g);
         applyFilters();
       }
 
       function renderChips(g) {
-        const chips = document.querySelectorAll(`[data-g="${g}"]`);
-        const val = F[g];
-        chips.forEach((c) => {
+        document.querySelectorAll(`[data-g="${g}"]`).forEach((c) => {
           const cv = c.dataset.v;
           c.className = "chip";
-          if (val === null) {
-            // ALL mode — كل الـ chips ملونة
+          if (F[g] === null) {
             c.classList.add("all-on");
           } else {
-            if (cv === "ALL") {
-              c.classList.add("dim");
-            } else if (cv === val) {
-              c.classList.add(`on-${cv}`);
-            } else {
-              c.classList.add("dim");
-            }
+            if (cv === "ALL") c.classList.add("dim");
+            else if (cv === F[g]) c.classList.add(`on-${cv}`);
+            else c.classList.add("dim");
           }
         });
       }
@@ -837,46 +809,39 @@
       }
 
       // ── TOPIC LIST ──
-      function encId(t) {
-        return t.replace(/[\s,\/\-äöüÄÖÜß]/g, "_");
+      function encId(s) {
+        return s.replace(/[\s,\/\-äöüÄÖÜß&]/g, "_");
       }
 
       function buildTopicList() {
         const modules = {};
         ALL.forEach((q) => {
           if (!modules[q.module]) modules[q.module] = {};
-          if (!modules[q.module][q.topic])
-            modules[q.module][q.topic] = { Easy: 0, Medium: 0, Hard: 0 };
-          modules[q.module][q.topic][q.difficulty]++;
+          if (!modules[q.module][q.topic]) modules[q.module][q.topic] = 0;
+          modules[q.module][q.topic]++;
         });
         const container = document.getElementById("topicList");
         container.innerHTML = "";
+
+        // All item
         const allItem = document.createElement("div");
         allItem.className = "topic-item active";
         allItem.dataset.topic = "all";
-        allItem.innerHTML = `<span class="topic-name" style="font-weight:700">All Questions</span><div class="topic-right"><span class="topic-count" id="cnt-all">${ALL.length}</span></div>`;
+        allItem.innerHTML = `<span class="topic-name" style="font-weight:700">All Questions</span><span class="topic-cnt" id="cnt-all" style="color:${cntColor()}">${ALL.length}</span>`;
         allItem.onclick = () => selectTopic("all", allItem);
         container.appendChild(allItem);
+
         for (const [mod, topics] of Object.entries(modules)) {
           const modDiv = document.createElement("div");
           const mid = encId(mod);
-          modDiv.innerHTML = `<div class="module-header"><span>${mod}</span><span class="module-cnt" id="mod-${mid}">0</span></div>`;
-          for (const [topic, stats] of Object.entries(topics)) {
+          modDiv.innerHTML = `<div class="module-header"><span>${t(mod)}</span><span class="module-cnt" id="mod-${mid}" style="color:${cntColor()}">0</span></div>`;
+          for (const [topic] of Object.entries(topics)) {
             const item = document.createElement("div");
             item.className = "topic-item";
             item.dataset.topic = topic;
-            item.dataset.name = topic.toLowerCase();
+            item.dataset.name = t(topic).toLowerCase();
             const tid = encId(topic);
-            item.innerHTML = `
-        <span class="topic-name">${topic}</span>
-        <div class="topic-right">
-          <span class="topic-count" id="cnt-${tid}">0</span>
-          <div class="topic-mini">
-            <span class="tm tm-e" id="e-${tid}">E:${stats.Easy}</span>
-            <span class="tm tm-m" id="m-${tid}">M:${stats.Medium}</span>
-            <span class="tm tm-h" id="h-${tid}">H:${stats.Hard}</span>
-          </div>
-        </div>`;
+            item.innerHTML = `<span class="topic-name">${t(topic)}</span><span class="topic-cnt" id="cnt-${tid}" style="color:${cntColor()}">0</span>`;
             item.onclick = () => selectTopic(topic, item);
             modDiv.appendChild(item);
           }
@@ -885,6 +850,7 @@
       }
 
       function updateCounts() {
+        const color = cntColor();
         const tc = {},
           mc = {};
         ALL.forEach((q) => {
@@ -892,22 +858,30 @@
           tc[q.topic] = (tc[q.topic] || 0) + 1;
           mc[q.module] = (mc[q.module] || 0) + 1;
         });
+        const total = Object.values(tc).reduce((a, b) => a + b, 0);
+
         const allEl = document.getElementById("cnt-all");
-        if (allEl)
-          allEl.textContent = Object.values(tc).reduce((a, b) => a + b, 0);
+        if (allEl) {
+          allEl.textContent = total;
+          allEl.style.color = color;
+        }
+
         document.querySelectorAll(".topic-item[data-topic]").forEach((item) => {
           const topic = item.dataset.topic;
           if (topic === "all") return;
           const el = document.getElementById(`cnt-${encId(topic)}`);
-          if (el) el.textContent = tc[topic] || 0;
+          if (el) {
+            el.textContent = tc[topic] || 0;
+            el.style.color = color;
+          }
         });
-        for (const [mod] of Object.entries(mc)) {
-          const el = document.getElementById(`mod-${encId(mod)}`);
-          if (el) el.textContent = mc[mod] || 0;
-        }
+
         document.querySelectorAll('[id^="mod-"]').forEach((el) => {
-          const mod = el.id.replace("mod-", "").replace(/_/g, " ");
-          if (!mc[mod]) el.textContent = "0";
+          const mid = el.id.replace("mod-", "");
+          // find matching module
+          const mod = Object.keys(mc).find((m) => encId(m) === mid) || "";
+          el.textContent = mc[mod] || 0;
+          el.style.color = color;
         });
       }
 
@@ -927,20 +901,23 @@
         applyFilters();
       }
 
-      // ── FILTER LOGIC ──
+      // ── FILTERS ──
       function passFilter(q) {
-        const dOk = F.diff === null || q.difficulty === F.diff;
-        const tOk = F.type === null || q.type === F.type;
-        return dOk && tOk;
+        return (
+          (F.diff === null || q.difficulty === F.diff) &&
+          (F.type === null || q.type === F.type)
+        );
       }
 
       function applyFilters() {
-        filtered = ALL.filter((q) => {
-          const topicOk = activeTopic === "all" || q.topic === activeTopic;
-          return topicOk && passFilter(q);
-        });
+        filtered = ALL.filter(
+          (q) =>
+            (activeTopic === "all" || q.topic === activeTopic) && passFilter(q),
+        );
         shown = 0;
-        document.getElementById("resultCount").textContent = filtered.length;
+        const rc = document.getElementById("resultCount");
+        rc.textContent = filtered.length;
+        rc.style.color = cntColor();
         document.getElementById("questionList").innerHTML = "";
         document.getElementById("emptyState").style.display =
           filtered.length === 0 ? "block" : "none";
@@ -958,76 +935,83 @@
             `<span class="filter-tag">${F.type === "main" ? "Main" : "Supplementary"}</span>`,
           );
         if (activeTopic !== "all")
-          tags.push(`<span class="filter-tag">📍 ${activeTopic}</span>`);
+          tags.push(`<span class="filter-tag">📍 ${t(activeTopic)}</span>`);
         document.getElementById("filterTags").innerHTML = tags.join("");
       }
 
-      // ── LINKED QUESTION PANEL ──
-      function toggleLinked(cardId) {
-        const panel = document.getElementById(`linked-${cardId}`);
-        if (!panel) return;
-        panel.classList.toggle("open");
-        const btn = document.getElementById(`linked-btn-${cardId}`);
-        if (btn) {
-          const isOpen = panel.classList.contains("open");
-          const q = BY_ID[cardId];
-          if (q.type === "main") {
-            btn.innerHTML = isOpen
-              ? "▲ Hide Supplementary"
-              : "▼ Show Supplementary";
-          } else {
-            btn.innerHTML = isOpen
-              ? "▲ Hide Main Question"
-              : "▲ Show Main Question";
-          }
-        }
+      // ── LINKED PANEL ──
+      // Show linked btn only when type filter is NOT ALL
+      function showLinkedBtn() {
+        return F.type !== null;
       }
 
-      function buildQuestionBody(q, isLinked = false) {
+      function toggleLinked(id) {
+        const panel = document.getElementById("linked-" + id);
+        if (!panel) return;
+        const isOpen = panel.classList.toggle("open");
+        const btn = document.getElementById("lbtn-" + id);
+        if (!btn) return;
+        const q = BY_ID[id];
+        if (q.type === "main")
+          btn.textContent = isOpen
+            ? "▲ Hide Supplementary"
+            : "▼ Show Supplementary";
+        else
+          btn.textContent = isOpen
+            ? "▼ Hide Main Question"
+            : "▲ Show Main Question";
+      }
+
+      // ── CARD BUILDER ──
+      function buildBody(q, suffix) {
         const isGif = q.image && q.image >= 100000;
         const imgUrl = q.image
           ? `https://img.f-online.at/${q.image}.${isGif ? "gif" : "jpg"}`
           : null;
-        const suffix = isLinked ? `-linked` : "-main";
+        const imgId = `img-${q.id}-${suffix}`;
         const imgHtml = imgUrl
-          ? `<div class="q-image" id="img-${q.id}${suffix}"><img src="${imgUrl}" onerror="document.getElementById('img-${q.id}${suffix}').classList.add('hidden')" alt="Q${q.id}"></div>`
+          ? `<div class="q-image" id="${imgId}"><img src="${imgUrl}" onerror="document.getElementById('${imgId}').classList.add('hidden')" alt="Q${q.id}"></div>`
           : "";
         const answers = q.answers
           .map(
             (a, i) =>
-              `<div class="answer ${a.correct ? "correct" : ""}"><div class="answer-marker">${MARKERS[i]}</div><div>${a.text}</div></div>`,
+              `<div class="answer${a.correct ? " correct" : ""}"><div class="answer-marker">${MARKERS[i]}</div><div>${a.text}</div></div>`,
           )
           .join("");
         return `${imgHtml}<div class="q-text">${q.text}</div><div class="answers">${answers}</div>`;
       }
 
       function buildCard(q) {
-        // هل يوجد سؤال مرتبط؟
-        let linkedHtml = "";
-        let linkedBtnHtml = "";
+        let aboveHtml = "",
+          belowHtml = "",
+          btnHtml = "";
+        const showBtn = showLinkedBtn();
 
-        if (q.type === "main") {
-          const subQ = BY_ID[q.sub_id];
-          if (subQ) {
-            linkedBtnHtml = `<button class="linked-btn linked-btn-sub" id="linked-btn-${q.id}" onclick="toggleLinked(${q.id})">▼ Show Supplementary</button>`;
-            linkedHtml = `<div class="linked-panel" id="linked-${q.id}">
-        <div class="linked-inner">
-          <div class="linked-label"><span>↓</span> Supplementary Question #${subQ.id} · <span class="pill pill-${subQ.difficulty}">${subQ.difficulty}</span></div>
-          ${buildQuestionBody(subQ, true)}
-        </div>
-      </div>`;
-          }
-        } else if (q.type === "supplementary") {
-          const mainQ = BY_ID[q.parent_id];
-          if (mainQ) {
-            linkedBtnHtml = `<button class="linked-btn linked-btn-main" id="linked-btn-${q.id}" onclick="toggleLinked(${q.id})">▲ Show Main Question</button>`;
-            linkedHtml = `<div class="linked-panel" id="linked-${q.id}">
-        <div class="linked-inner">
-          <div class="linked-label"><span>↑</span> Main Question #${mainQ.id} · <span class="pill pill-${mainQ.difficulty}">${mainQ.difficulty}</span></div>
-          ${buildQuestionBody(mainQ, true)}
-        </div>
-      </div>`;
-          }
+        if (q.type === "main" && q.sub_id && BY_ID[q.sub_id] && showBtn) {
+          const sub = BY_ID[q.sub_id];
+          btnHtml = `<button class="linked-btn linked-btn-sub" id="lbtn-${q.id}" onclick="toggleLinked(${q.id})">▼ Show Supplementary</button>`;
+          belowHtml = `<div class="linked-panel" id="linked-${q.id}">
+      <div class="linked-inner below">
+        <div class="linked-label">↓ Supplementary #${sub.id} &nbsp;<span class="pill pill-${sub.difficulty}">${sub.difficulty}</span></div>
+        ${buildBody(sub, "sub")}
+      </div>
+    </div>`;
+        }
+
+        if (
+          q.type === "supplementary" &&
+          q.parent_id &&
+          BY_ID[q.parent_id] &&
+          showBtn
+        ) {
+          const main = BY_ID[q.parent_id];
+          btnHtml = `<button class="linked-btn linked-btn-main" id="lbtn-${q.id}" onclick="toggleLinked(${q.id})">▲ Show Main Question</button>`;
+          aboveHtml = `<div class="linked-panel" id="linked-${q.id}">
+      <div class="linked-inner above">
+        <div class="linked-label">↑ Main Question #${main.id} &nbsp;<span class="pill pill-${main.difficulty}">${main.difficulty}</span></div>
+        ${buildBody(main, "main")}
+      </div>
+    </div>`;
         }
 
         return `<div class="q-card">
@@ -1036,16 +1020,17 @@
       <div class="q-meta">
         <span class="pill pill-${q.difficulty}">${q.difficulty}</span>
         <span class="pill pill-${q.type}">${q.type === "main" ? "Main" : "Supplementary"}</span>
-        ${linkedBtnHtml}
+        ${btnHtml}
       </div>
     </div>
-    <div class="q-body">${buildQuestionBody(q)}</div>
-    ${linkedHtml}
+    ${aboveHtml}
+    <div class="q-body">${buildBody(q, "self")}</div>
+    ${belowHtml}
   </div>`;
       }
 
       function loadMore() {
-        if (filtered.length === 0) return;
+        if (!filtered.length) return;
         const batch = filtered.slice(shown, shown + PER);
         const container = document.getElementById("questionList");
         batch.forEach((q) => {
@@ -1061,34 +1046,29 @@
       // ── INIT ──
       async function init() {
         try {
-          const res = await fetch("fahrschule_full.json");
-          const raw = await res.json();
-          ALL = raw;
-
-          // بناء خريطة ID
+          const res = await fetch("question_catalog_en.json");
+          ALL = await res.json();
           ALL.forEach((q) => {
             BY_ID[q.id] = q;
           });
-
-          // ربط sub_id لكل main
           ALL.forEach((q) => {
             if (q.type === "supplementary" && q.parent_id) {
-              const mainQ = BY_ID[q.parent_id];
-              if (mainQ) mainQ.sub_id = q.id;
+              const m = BY_ID[q.parent_id];
+              if (m) m.sub_id = q.id;
             }
           });
-
           filtered = [...ALL];
           buildTopicList();
           renderChips("diff");
           renderChips("type");
           updateCounts();
           document.getElementById("resultCount").textContent = ALL.length;
+          document.getElementById("resultCount").style.color = cntColor();
           document.getElementById("totalCount").textContent = ALL.length;
           loadMore();
         } catch (e) {
           document.getElementById("questionList").innerHTML =
-            '<div class="empty">⚠️ fahrschule_full.json not found.</div>';
+            '<div class="empty">⚠️ question_catalog_en.json not found.</div>';
         }
       }
 
