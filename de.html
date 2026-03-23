@@ -375,7 +375,7 @@ function toggleLinked(id){
 // ── CARD BUILDER ──
 function buildBody(q, suffix){
   const isGif=q.image&&q.image>=100000;
-  const imgUrl=q.image?`https://img.f-online.at/${q.image}.${isGif?'gif':'jpg'}`:null;
+  const imgUrl=q.image?`assets/images/${q.image}.${isGif?'gif':'jpg'}`:null;
   const imgId=`img-${q.id}-${suffix}`;
   const imgHtml=imgUrl?`<div class="q-image" id="${imgId}"><img src="${imgUrl}" onerror="document.getElementById('${imgId}').classList.add('hidden')" alt="Q${q.id}"></div>`:'';
   const answers=q.answers.map((a,i)=>`<div class="answer${a.correct?' correct':''}"><div class="answer-marker">${MARKERS[i]}</div><div>${a.text}</div></div>`).join('');

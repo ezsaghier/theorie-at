@@ -966,7 +966,7 @@
       function buildBody(q, suffix) {
         const isGif = q.image && q.image >= 100000;
         const imgUrl = q.image
-          ? `https://img.f-online.at/${q.image}.${isGif ? "gif" : "jpg"}`
+          ? `assets/images/${q.image}.${isGif ? "gif" : "jpg"}`
           : null;
         const imgId = `img-${q.id}-${suffix}`;
         const imgHtml = imgUrl
