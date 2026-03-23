@@ -256,11 +256,11 @@ h1 span { color: var(--accent); }
   <div class="lang-grid">
 
     <!-- DEUTSCH -->
-    <a href="de.html" class="lang-card disabled" onclick="return false;" title="Bald verfügbar">
+    <a href="de.html" class="lang-card">
       <span class="lang-flag">🇩🇪</span>
       <span class="lang-name">Deutsch</span>
       <span class="lang-native">Deutsch</span>
-      <span class="lang-badge soon">Bald</span>
+      <span class="lang-badge">✓ Live</span>
     </a>
 
     <!-- ENGLISH -->
@@ -310,10 +310,10 @@ h1 span { color: var(--accent); }
   <span>© 2026 Ezzedeen Saghier</span>
   <a href="impressum.html">Impressum</a>
   <a href="datenschutz.html">Datenschutz</a>
-  <a href="mailto:ezsaghier@gmail.com">Kontakt</a>
+  <a href="/cdn-cgi/l/email-protection#14716e6775737c7d7166547379757d783a777b79">Kontakt</a>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // ── THEME ──
 function getTheme() {
   return localStorage.getItem('theme') || 'light';
@@ -328,11 +328,4 @@ function applyTheme(theme) {
 
 function toggleTheme() {
   const current = document.documentElement.getAttribute('data-theme');
-  applyTheme(current === 'dark' ? 'light' : 'dark');
-}
-
-// تطبيق الثيم عند التحميل
-applyTheme(getTheme());
-</script>
-</body>
-</html>
+  a
