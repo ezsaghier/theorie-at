@@ -964,9 +964,8 @@
 
       // ── CARD BUILDER ──
       function buildBody(q, suffix) {
-        const isGif = q.image && q.image >= 100000;
         const imgUrl = q.image
-          ? `assets/images/${q.image}.${isGif ? "gif" : "jpg"}`
+          ? `assets/images/${q.image}`
           : null;
         const imgId = `img-${q.id}-${suffix}`;
         const imgHtml = imgUrl
