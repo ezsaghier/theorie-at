@@ -28,7 +28,7 @@ export default function LandingView({ setTopLevelView, toggleTheme, theme }) {
           <button 
             className="load-more-btn" 
             style={{ width: '100%', padding: '15px', fontSize: '18px', borderColor: 'var(--accent)', color: 'var(--text)' }}
-            onClick={() => setTopLevelView('home')}
+            onClick={() => setTopLevelView('quiz')}
           >
             Proceed to Catalogue ➔
           </button>

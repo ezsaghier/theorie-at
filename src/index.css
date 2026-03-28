@@ -341,6 +341,45 @@ h1 span { color: var(--accent); }
         border-color: var(--accent);
         color: var(--accent);
       }
+      .lang-dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .lang-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        margin-top: 5px;
+        left: 0;
+        right: auto;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        box-shadow: 0 4px 12px var(--shadow);
+        z-index: 101;
+        padding: 6px 0;
+        min-width: 130px;
+      }
+      .lang-menu.open {
+        display: block;
+      }
+      .lang-menu button {
+        display: block;
+        width: 100%;
+        padding: 8px 16px;
+        text-align: left;
+        background: none;
+        border: none;
+        color: var(--text);
+        font-family: 'DM Mono', monospace;
+        font-size: 12px;
+        cursor: pointer;
+        transition: background 0.15s;
+      }
+      .lang-menu button:hover {
+        background: var(--surface2);
+        color: var(--accent);
+      }
       .horizontal-menu {
         display: flex;
         align-items: center;
@@ -546,7 +585,7 @@ h1 span { color: var(--accent); }
         letter-spacing: 1px;
         color: var(--muted);
         font-family: "DM Mono", monospace;
-        background: rgba(128, 128, 128, 0.04);
+        background: var(--surface2);
         display: flex;
         justify-content: space-between;
         align-items: center;

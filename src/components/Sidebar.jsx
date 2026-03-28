@@ -2,9 +2,8 @@ import React from 'react';
 
 import { getT, getTopic } from '../i18n';
 
-export default function Sidebar({ filters, setFilters, topics, activeTopic, setActiveTopic, searchQuery, setSearchQuery, lang }) {
-  const diffs = ['ALL', 'easy', 'medium', 'hard'];
-  const types = ['ALL', 'main', 'supplementary'];
+export default function Sidebar({ filters, setFilters, topics, activeTopic, setActiveTopic, lang }) {
+  const diffs = ['ALL', 'Hard'];
 
   const clickChip = (group, val) => {
     setFilters(prev => ({
@@ -23,7 +22,6 @@ export default function Sidebar({ filters, setFilters, topics, activeTopic, setA
   return (
     <div className="sidebar">
       <div className="filter-section">
-        <div className="filter-title">{getT(lang, 'filters')}</div>
         
         <div className="filter-group">
           <div className="filter-group-label">{getT(lang, 'difficulty')}</div>
@@ -33,31 +31,6 @@ export default function Sidebar({ filters, setFilters, topics, activeTopic, setA
             ))}
           </div>
         </div>
-
-        <div className="filter-group">
-          <div className="filter-group-label">{getT(lang, 'type')}</div>
-          <div className="chips">
-            {types.map(t => (
-              <div key={t} className={getChipClass('type', t)} onClick={() => clickChip('type', t)}>
-                {getT(lang, t.toLowerCase())}
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <button className="reset-btn" onClick={() => setFilters({ diff: null, type: null })}>
-          {getT(lang, 'reset')}
-        </button>
-      </div>
-
-      <div className="sidebar-search">
-        <input 
-          className="search-input" 
-          type="text" 
-          placeholder={getT(lang, "search")} 
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)} 
-        />
       </div>
 
       <div className="topic-list">

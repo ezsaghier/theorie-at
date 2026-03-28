@@ -1,12 +1,11 @@
 import { useState, useEffect } from 'react';
 import LandingView from './components/LandingView';
-import HomeView from './components/HomeView';
 import QuizView from './components/QuizView';
 import TestView from './components/TestView';
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
-  const [lang, setLang] = useState(null); 
+  const [lang, setLang] = useState('de'); 
   const [topLevelView, setTopLevelView] = useState('landing');
 
   useEffect(() => {
@@ -20,12 +19,9 @@ function App() {
     if (lang === 'ar') {
       document.documentElement.setAttribute('dir', 'rtl');
       document.documentElement.setAttribute('lang', 'ar');
-    } else if (lang) {
-      document.documentElement.setAttribute('dir', 'ltr');
-      document.documentElement.setAttribute('lang', lang);
     } else {
       document.documentElement.setAttribute('dir', 'ltr');
-      document.documentElement.setAttribute('lang', 'de'); 
+      document.documentElement.setAttribute('lang', lang);
     }
   }, [lang]);
 
@@ -37,20 +33,10 @@ function App() {
       {topLevelView === 'test' && (
         <TestView setTopLevelView={setTopLevelView} toggleTheme={toggleTheme} theme={theme} />
       )}
-      {topLevelView === 'home' && (
-        <HomeView 
-          setLang={(selectedLang) => {
-            setLang(selectedLang);
-            setTopLevelView('quiz');
-          }} 
-          toggleTheme={toggleTheme} 
-          theme={theme} 
-        />
-      )}
       {topLevelView === 'quiz' && (
         <QuizView 
           lang={lang} 
-          setLang={() => setTopLevelView('home')} 
+          setLang={setLang} 
           toggleTheme={toggleTheme} 
           theme={theme} 
         />

@@ -37,7 +37,7 @@ export const UI = {
     footerPrivacy: "Privacy Policy",
     footerContact: "Contact",
     navTest: "Test",
-    navHardQuestions: "Hard questions",
+    navHardQuestions: "Simulate Exam",
     navSearchQuestion: "Search question",
     searchNumberPlaceholder: "Number..."
   },
@@ -79,7 +79,7 @@ export const UI = {
     footerPrivacy: "Datenschutz",
     footerContact: "Kontakt",
     navTest: "Test",
-    navHardQuestions: "Schwere Fragen",
+    navHardQuestions: "Prüfung simulieren",
     navSearchQuestion: "Frage suchen",
     searchNumberPlaceholder: "Nummer..."
   },
@@ -121,7 +121,7 @@ export const UI = {
     footerPrivacy: "سياسة الخصوصية",
     footerContact: "اتصل بنا",
     navTest: "اختبار",
-    navHardQuestions: "أسئلة صعبة",
+    navHardQuestions: "محاكاة الامتحان",
     navSearchQuestion: "ابحث عن سؤال",
     searchNumberPlaceholder: "رقم..."
   }

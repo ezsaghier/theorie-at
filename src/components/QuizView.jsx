@@ -17,7 +17,6 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
     return localStorage.getItem('quiz_topic') || 'all';
   });
 
-  const [searchQuery, setSearchQuery] = useState('');
   const [visibleCount, setVisibleCount] = useState(20);
 
   const [questionIdSearchText, setQuestionIdSearchText] = useState('');
@@ -27,6 +26,18 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
     localStorage.setItem('quiz_filters', JSON.stringify(filters));
     localStorage.setItem('quiz_topic', activeTopic);
   }, [filters, activeTopic]);
+
+  const handleSetTopic = (val) => {
+    setActiveTopic(val);
+    setActiveQuestionId('');
+    setQuestionIdSearchText('');
+  };
+
+  const handleSetFilters = (valUpdater) => {
+    setFilters(valUpdater);
+    setActiveQuestionId('');
+    setQuestionIdSearchText('');
+  };
 
   useEffect(() => {
     // Load local json DB based on currently selected language
@@ -50,13 +61,8 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
       module: map[name].module 
     }));
     
-    if (!searchQuery) {
-      return topicList.sort((a, b) => b.count - a.count);
-    }
-    
-    const fuse = new Fuse(topicList, { keys: ['name'], threshold: 0.4 });
-    return fuse.search(searchQuery).map(result => result.item);
-  }, [allQuestions, searchQuery]);
+    return topicList.sort((a, b) => b.count - a.count);
+  }, [allQuestions]);
 
   const filteredQuestions = useMemo(() => {
     if (activeQuestionId) {
@@ -67,8 +73,7 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
     return allQuestions.filter(q => {
       const matchDiff = filters.diff === null || q.difficulty === filters.diff;
       const matchTopic = activeTopic === 'all' || q.topic === activeTopic;
-      const matchType = filters.type === null || q.type === filters.type;
-      return matchTopic && matchDiff && matchType;
+      return matchTopic && matchDiff;
     });
   }, [allQuestions, activeTopic, filters, activeQuestionId]);
 
@@ -86,16 +91,12 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
         toggleTheme={toggleTheme} 
         theme={theme} 
         lang={lang}
-        showingCount={Math.min(visibleCount, filteredQuestions.length)}
-        totalCount={filteredQuestions.length}
       />
       <div className="horizontal-menu">
         <button 
-          className={`h-menu-btn ${filters.diff === 'Hard' ? 'active' : ''}`} 
-          onClick={() => {
-            setActiveQuestionId('');
-            setFilters(prev => ({ ...prev, diff: prev.diff === 'Hard' ? null : 'Hard' }));
-          }}
+          className="h-menu-btn" 
+          disabled
+          style={{ opacity: 0.5, cursor: 'not-allowed' }}
         >
           {getT(lang, 'navHardQuestions')}
         </button>
@@ -121,17 +122,15 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
       </div>
       <div className="layout">
         <Sidebar 
-          filters={filters} setFilters={setFilters}
+          filters={filters} setFilters={handleSetFilters}
           topics={topicsMap} lang={lang} 
-          activeTopic={activeTopic} setActiveTopic={setActiveTopic}
-          searchQuery={searchQuery} setSearchQuery={setSearchQuery}
+          activeTopic={activeTopic} setActiveTopic={handleSetTopic}
         />
         <div className="main-wrap">
           <div className="main">
              <div className="results-info">
-               {getT(lang, 'showing')} <span className="results-count">{filteredQuestions.length}</span> {getT(lang, 'questions')}
+               <span className="results-count">{filteredQuestions.length}</span> {getT(lang, 'questions')}
                {filters.diff && <span className="filter-tag">{getT(lang, filters.diff)}</span>}
-               {filters.type && <span className="filter-tag">{getT(lang, filters.type === 'main' ? 'main' : 'supplementary')}</span>}
                {activeTopic !== 'all' && <span className="filter-tag">📍 {getTopic(lang, activeTopic)}</span>}
              </div>
              
