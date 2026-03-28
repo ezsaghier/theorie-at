@@ -68,12 +68,12 @@ export default function Sidebar({ filters, setFilters, topics, activeTopic, setA
           <div className="topic-name">{getT(lang, 'allTopics')}</div>
         </div>
         
-        {topics.filter(t => !t.id.startsWith('B - ')).length > 0 && (
+        {topics.filter(t => t.module === 'Grundwissen').length > 0 && (
           <div className="module-header">
-            Grundwissen
+            {getTopic(lang, 'Grundwissen')}
           </div>
         )}
-        {topics.filter(t => !t.id.startsWith('B - ')).map(({ id, name, count }) => (
+        {topics.filter(t => t.module === 'Grundwissen').map(({ id, name, count }) => (
           <div 
             key={id}
             className={`topic-item ${activeTopic === id ? 'active' : ''}`}
@@ -84,12 +84,12 @@ export default function Sidebar({ filters, setFilters, topics, activeTopic, setA
           </div>
         ))}
 
-        {topics.filter(t => t.id.startsWith('B - ')).length > 0 && (
+        {topics.filter(t => t.module === 'B-Fragen').length > 0 && (
           <div className="module-header">
-            B-Fragen
+            {getTopic(lang, 'B-Fragen')}
           </div>
         )}
-        {topics.filter(t => t.id.startsWith('B - ')).map(({ id, name, count }) => (
+        {topics.filter(t => t.module === 'B-Fragen').map(({ id, name, count }) => (
           <div 
             key={id}
             className={`topic-item ${activeTopic === id ? 'active' : ''}`}

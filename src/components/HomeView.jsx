@@ -3,8 +3,8 @@ import { getT } from '../i18n';
 
 const LANGS = [
   { id: 'en', name: 'English', native: 'English', displayFlag: '🇬🇧', status: '✓ Live', disabled: false },
-  { id: 'de', name: 'Deutsch', native: 'Deutsch', displayFlag: '🇩🇪', status: '✓ Live', disabled: false },
-  { id: 'ar', name: 'Arabic', native: 'العربية', displayFlag: '🇸🇦', status: '✓ Live', disabled: false },
+  { id: 'de', name: 'Deutsch', native: 'Deutsch', displayFlag: '🇩🇪', status: '✓ Live', disabled: true },
+  { id: 'ar', name: 'Arabic', native: 'العربية', displayFlag: '🇸🇦', status: '✓ Live', disabled: true },
 ];
 
 export default function HomeView({ setLang, toggleTheme, theme }) {

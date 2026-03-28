@@ -39,11 +39,16 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
   const topicsMap = useMemo(() => {
     const map = {};
     allQuestions.forEach(q => {
-      if (!map[q.topic]) map[q.topic] = 0;
-      map[q.topic]++;
+      if (!map[q.topic]) map[q.topic] = { count: 0, module: q.module };
+      map[q.topic].count++;
     });
     
-    const topicList = Object.keys(map).map(name => ({ id: name, name: getTopic(lang, name), count: map[name] }));
+    const topicList = Object.keys(map).map(name => ({ 
+      id: name, 
+      name: getTopic(lang, name), 
+      count: map[name].count, 
+      module: map[name].module 
+    }));
     
     if (!searchQuery) {
       return topicList.sort((a, b) => b.count - a.count);
@@ -59,25 +64,8 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
       return allQuestions.filter(q => q.id === targetId || q.parent_id === targetId);
     }
 
-    let hardMainIds = null;
-    if (filters.diff === 'Hard') {
-      hardMainIds = new Set();
-      for (let i = 0; i < allQuestions.length; i++) {
-        const q = allQuestions[i];
-        if (q.difficulty === 'Hard') {
-          hardMainIds.add(q.id);
-        }
-      }
-    }
-
     return allQuestions.filter(q => {
-      let matchDiff;
-      if (filters.diff === 'Hard') {
-        matchDiff = q.difficulty === 'Hard' || (q.parent_id && hardMainIds.has(q.parent_id));
-      } else {
-        matchDiff = filters.diff === null || q.difficulty === filters.diff;
-      }
-
+      const matchDiff = filters.diff === null || q.difficulty === filters.diff;
       const matchTopic = activeTopic === 'all' || q.topic === activeTopic;
       const matchType = filters.type === null || q.type === filters.type;
       return matchTopic && matchDiff && matchType;
@@ -102,7 +90,6 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
         totalCount={filteredQuestions.length}
       />
       <div className="horizontal-menu">
-        <button className="h-menu-btn" onClick={() => {}}>{getT(lang, 'navTest')}</button>
         <button 
           className={`h-menu-btn ${filters.diff === 'Hard' ? 'active' : ''}`} 
           onClick={() => {

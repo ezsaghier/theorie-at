@@ -148,15 +148,15 @@ export const TOPICS = {
     "Lenkerpflichten, Vormerkungen, Unfall": "واجبات السائق والحوادث",
     "Eisenbahnkreuzungen": "تقاطعات السكك الحديدية",
     "Geregelte Kreuzungen": "التقاطعات المنظمة",
-    "B - Rechtsvorschriften": "ب - التشريعات القانونية",
-    "B - Personenbeförderung, Ladung, Anhänger": "ب - نقل الركاب والحمولة والمقطورات",
-    "B - Fahrzeugtechnik, Winterbetrieb": "ب - تكنولوجيا المركبات والقيادة الشتوية",
-    "B - Gefahrenlehre, Antriebe, Pannen": "ب - نظرية الخطر والأعطال",
-    "B - Fahrdynamik, Bremsanlage": "ب - ديناميكا المركبة والمكابح"
+    "Rechtsvorschriften": "التشريعات القانونية",
+    "Personenbeförderung, Ladung, Anhänger": "نقل الركاب والحمولة والمقطورات",
+    "Fahrzeugtechnik, Winterbetrieb": "تكنولوجيا المركبات والقيادة الشتوية",
+    "Gefahrenlehre, Antriebe, Pannen": "نظرية الخطر والأعطال",
+    "Fahrdynamik, Bremsanlage": "ديناميكا المركبة والمكابح"
   },
   en: {
     "Grundwissen": "General Knowledge",
-    "B-Fragen": "Class B Questions",
+    "B-Fragen": "B-Question",
     "Gefahrenzeichen": "Danger Signs",
     "Verbotszeichen": "Prohibition Signs",
     "Gebotszeichen, Vorrangzeichen": "Mandatory & Priority Signs",
@@ -174,11 +174,11 @@ export const TOPICS = {
     "Lenkerpflichten, Vormerkungen, Unfall": "Driver Duties, Infringements, Accidents",
     "Eisenbahnkreuzungen": "Railway Crossings",
     "Geregelte Kreuzungen": "Regulated Intersections",
-    "B - Rechtsvorschriften": "B - Legal Regulations",
-    "B - Personenbeförderung, Ladung, Anhänger": "B - Passenger Transport, Cargo, Trailers",
-    "B - Fahrzeugtechnik, Winterbetrieb": "B - Vehicle Technology, Winter Driving",
-    "B - Gefahrenlehre, Antriebe, Pannen": "B - Hazard Theory, Drives, Breakdowns",
-    "B - Fahrdynamik, Bremsanlage": "B - Driving Dynamics, Braking System"
+    "Rechtsvorschriften": "Legal Regulations",
+    "Personenbeförderung, Ladung, Anhänger": "Passenger Transport, Cargo, Trailers",
+    "Fahrzeugtechnik, Winterbetrieb": "Vehicle Technology, Winter Driving",
+    "Gefahrenlehre, Antriebe, Pannen": "Hazard Theory, Drives, Breakdowns",
+    "Fahrdynamik, Bremsanlage": "Driving Dynamics, Braking System"
   }
 };
 

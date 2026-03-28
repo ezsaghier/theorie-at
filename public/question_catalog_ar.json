@@ -38442,7 +38442,7 @@
   {
     "id": 71,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -38479,7 +38479,7 @@
   {
     "id": 72,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 71,
     "difficulty": "Medium",
@@ -38516,7 +38516,7 @@
   {
     "id": 73,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 72,
     "difficulty": "Medium",
@@ -38552,7 +38552,7 @@
   {
     "id": 140,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -38589,7 +38589,7 @@
   {
     "id": 456,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 455,
     "difficulty": "Easy",
@@ -38625,7 +38625,7 @@
   {
     "id": 481,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -38662,7 +38662,7 @@
   {
     "id": 482,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 481,
     "difficulty": "Easy",
@@ -38698,7 +38698,7 @@
   {
     "id": 521,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -38734,7 +38734,7 @@
   {
     "id": 625,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -38771,7 +38771,7 @@
   {
     "id": 626,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 625,
     "difficulty": "Easy",
@@ -38807,7 +38807,7 @@
   {
     "id": 635,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -38844,7 +38844,7 @@
   {
     "id": 636,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 635,
     "difficulty": "Easy",
@@ -38880,7 +38880,7 @@
   {
     "id": 689,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -38916,7 +38916,7 @@
   {
     "id": 691,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 690,
     "difficulty": "Easy",
@@ -38952,7 +38952,7 @@
   {
     "id": 880,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -38989,7 +38989,7 @@
   {
     "id": 881,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 880,
     "difficulty": "Easy",
@@ -39025,7 +39025,7 @@
   {
     "id": 920,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -39062,7 +39062,7 @@
   {
     "id": 921,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 920,
     "difficulty": "Easy",
@@ -39098,7 +39098,7 @@
   {
     "id": 1034,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -39135,7 +39135,7 @@
   {
     "id": 1035,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1034,
     "difficulty": "Medium",
@@ -39171,7 +39171,7 @@
   {
     "id": 1036,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -39208,7 +39208,7 @@
   {
     "id": 1037,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1036,
     "difficulty": "Easy",
@@ -39244,7 +39244,7 @@
   {
     "id": 1038,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -39281,7 +39281,7 @@
   {
     "id": 1039,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1038,
     "difficulty": "Easy",
@@ -39317,7 +39317,7 @@
   {
     "id": 1275,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -39354,7 +39354,7 @@
   {
     "id": 1276,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1275,
     "difficulty": "Easy",
@@ -39390,7 +39390,7 @@
   {
     "id": 1383,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -39427,7 +39427,7 @@
   {
     "id": 1384,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1383,
     "difficulty": "Medium",
@@ -39463,7 +39463,7 @@
   {
     "id": 1386,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -39500,7 +39500,7 @@
   {
     "id": 1387,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1386,
     "difficulty": "Medium",
@@ -39537,7 +39537,7 @@
   {
     "id": 1388,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1387,
     "difficulty": "Medium",
@@ -39573,7 +39573,7 @@
   {
     "id": 1392,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -39610,7 +39610,7 @@
   {
     "id": 1393,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1392,
     "difficulty": "Medium",
@@ -39646,7 +39646,7 @@
   {
     "id": 1402,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -39682,7 +39682,7 @@
   {
     "id": 1412,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -39719,7 +39719,7 @@
   {
     "id": 1413,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1412,
     "difficulty": "Medium",
@@ -39755,7 +39755,7 @@
   {
     "id": 1565,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -39792,7 +39792,7 @@
   {
     "id": 1566,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1565,
     "difficulty": "Medium",
@@ -39828,7 +39828,7 @@
   {
     "id": 1573,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -39865,7 +39865,7 @@
   {
     "id": 1574,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1573,
     "difficulty": "Medium",
@@ -39901,7 +39901,7 @@
   {
     "id": 1575,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -39938,7 +39938,7 @@
   {
     "id": 1576,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1575,
     "difficulty": "Medium",
@@ -39974,7 +39974,7 @@
   {
     "id": 1602,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -40010,7 +40010,7 @@
   {
     "id": 1604,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1603,
     "difficulty": "Medium",
@@ -40046,7 +40046,7 @@
   {
     "id": 1611,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -40083,7 +40083,7 @@
   {
     "id": 1612,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1611,
     "difficulty": "Medium",
@@ -40119,7 +40119,7 @@
   {
     "id": 1613,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -40156,7 +40156,7 @@
   {
     "id": 1614,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1613,
     "difficulty": "Medium",
@@ -40192,7 +40192,7 @@
   {
     "id": 1632,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -40229,7 +40229,7 @@
   {
     "id": 1633,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1632,
     "difficulty": "Medium",
@@ -40266,7 +40266,7 @@
   {
     "id": 1636,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -40303,7 +40303,7 @@
   {
     "id": 1637,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1636,
     "difficulty": "Easy",
@@ -40339,7 +40339,7 @@
   {
     "id": 1638,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -40376,7 +40376,7 @@
   {
     "id": 1639,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1638,
     "difficulty": "Easy",
@@ -40412,7 +40412,7 @@
   {
     "id": 1681,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -40448,7 +40448,7 @@
   {
     "id": 1684,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1683,
     "difficulty": "Easy",
@@ -40484,7 +40484,7 @@
   {
     "id": 1693,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -40521,7 +40521,7 @@
   {
     "id": 1694,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1693,
     "difficulty": "Medium",
@@ -40557,7 +40557,7 @@
   {
     "id": 1744,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -40594,7 +40594,7 @@
   {
     "id": 1745,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1744,
     "difficulty": "Medium",
@@ -40630,7 +40630,7 @@
   {
     "id": 1746,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -40667,7 +40667,7 @@
   {
     "id": 1747,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1746,
     "difficulty": "Easy",
@@ -40703,7 +40703,7 @@
   {
     "id": 1748,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -40740,7 +40740,7 @@
   {
     "id": 1749,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1748,
     "difficulty": "Easy",
@@ -40776,7 +40776,7 @@
   {
     "id": 1750,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -40813,7 +40813,7 @@
   {
     "id": 1751,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1750,
     "difficulty": "Medium",
@@ -40849,7 +40849,7 @@
   {
     "id": 1756,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -40886,7 +40886,7 @@
   {
     "id": 1757,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1756,
     "difficulty": "Medium",
@@ -40922,7 +40922,7 @@
   {
     "id": 1774,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -40959,7 +40959,7 @@
   {
     "id": 1775,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1774,
     "difficulty": "Medium",
@@ -40995,7 +40995,7 @@
   {
     "id": 1776,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -41031,7 +41031,7 @@
   {
     "id": 1779,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1778,
     "difficulty": "Medium",
@@ -41067,7 +41067,7 @@
   {
     "id": 1792,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -41104,7 +41104,7 @@
   {
     "id": 1793,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1792,
     "difficulty": "Medium",
@@ -41140,7 +41140,7 @@
   {
     "id": 1794,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -41177,7 +41177,7 @@
   {
     "id": 1795,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1794,
     "difficulty": "Medium",
@@ -41213,7 +41213,7 @@
   {
     "id": 1800,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -41250,7 +41250,7 @@
   {
     "id": 1801,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 1800,
     "difficulty": "Medium",
@@ -41286,7 +41286,7 @@
   {
     "id": 2027,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -41323,7 +41323,7 @@
   {
     "id": 2028,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 2027,
     "difficulty": "Easy",
@@ -41359,7 +41359,7 @@
   {
     "id": 2031,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -41395,7 +41395,7 @@
   {
     "id": 2043,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 2042,
     "difficulty": "Medium",
@@ -41431,7 +41431,7 @@
   {
     "id": 2086,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -41468,7 +41468,7 @@
   {
     "id": 2087,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 2086,
     "difficulty": "Easy",
@@ -41504,7 +41504,7 @@
   {
     "id": 2110,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -41541,7 +41541,7 @@
   {
     "id": 2111,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 2110,
     "difficulty": "Easy",
@@ -41577,7 +41577,7 @@
   {
     "id": 2536,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -41614,7 +41614,7 @@
   {
     "id": 2537,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 2536,
     "difficulty": "Easy",
@@ -41650,7 +41650,7 @@
   {
     "id": 2692,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -41687,7 +41687,7 @@
   {
     "id": 2693,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 2692,
     "difficulty": "Medium",
@@ -41723,7 +41723,7 @@
   {
     "id": 2694,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -41760,7 +41760,7 @@
   {
     "id": 2695,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 2694,
     "difficulty": "Medium",
@@ -41796,7 +41796,7 @@
   {
     "id": 2704,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -41833,7 +41833,7 @@
   {
     "id": 2705,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 2704,
     "difficulty": "Medium",
@@ -41869,7 +41869,7 @@
   {
     "id": 2712,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -41906,7 +41906,7 @@
   {
     "id": 2713,
     "module": "B-Fragen",
-    "topic": "B - Rechtsvorschriften",
+    "topic": "Rechtsvorschriften",
     "type": "supplementary",
     "parent_id": 2712,
     "difficulty": "Easy",
@@ -41942,7 +41942,7 @@
   {
     "id": 494,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -41979,7 +41979,7 @@
   {
     "id": 495,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 494,
     "difficulty": "Easy",
@@ -42015,7 +42015,7 @@
   {
     "id": 562,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -42052,7 +42052,7 @@
   {
     "id": 563,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 562,
     "difficulty": "Easy",
@@ -42088,7 +42088,7 @@
   {
     "id": 724,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -42125,7 +42125,7 @@
   {
     "id": 725,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 724,
     "difficulty": "Medium",
@@ -42162,7 +42162,7 @@
   {
     "id": 726,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 725,
     "difficulty": "Medium",
@@ -42198,7 +42198,7 @@
   {
     "id": 1400,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -42235,7 +42235,7 @@
   {
     "id": 1401,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1400,
     "difficulty": "Medium",
@@ -42271,7 +42271,7 @@
   {
     "id": 1403,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -42308,7 +42308,7 @@
   {
     "id": 1404,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1403,
     "difficulty": "Medium",
@@ -42344,7 +42344,7 @@
   {
     "id": 1407,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -42380,7 +42380,7 @@
   {
     "id": 1408,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -42417,7 +42417,7 @@
   {
     "id": 1409,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1408,
     "difficulty": "Easy",
@@ -42453,7 +42453,7 @@
   {
     "id": 1620,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -42490,7 +42490,7 @@
   {
     "id": 1621,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1620,
     "difficulty": "Medium",
@@ -42526,7 +42526,7 @@
   {
     "id": 1622,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -42563,7 +42563,7 @@
   {
     "id": 1623,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1622,
     "difficulty": "Medium",
@@ -42599,7 +42599,7 @@
   {
     "id": 1626,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -42636,7 +42636,7 @@
   {
     "id": 1627,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1626,
     "difficulty": "Easy",
@@ -42672,7 +42672,7 @@
   {
     "id": 1641,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -42709,7 +42709,7 @@
   {
     "id": 1647,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -42746,7 +42746,7 @@
   {
     "id": 1648,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1647,
     "difficulty": "Easy",
@@ -42782,7 +42782,7 @@
   {
     "id": 1649,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -42819,7 +42819,7 @@
   {
     "id": 1650,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1649,
     "difficulty": "Medium",
@@ -42856,7 +42856,7 @@
   {
     "id": 1651,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1650,
     "difficulty": "Medium",
@@ -42892,7 +42892,7 @@
   {
     "id": 1659,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -42929,7 +42929,7 @@
   {
     "id": 1660,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1659,
     "difficulty": "Easy",
@@ -42965,7 +42965,7 @@
   {
     "id": 1661,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -43002,7 +43002,7 @@
   {
     "id": 1662,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1661,
     "difficulty": "Easy",
@@ -43038,7 +43038,7 @@
   {
     "id": 1663,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -43075,7 +43075,7 @@
   {
     "id": 1664,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1663,
     "difficulty": "Easy",
@@ -43111,7 +43111,7 @@
   {
     "id": 1669,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -43148,7 +43148,7 @@
   {
     "id": 1670,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1669,
     "difficulty": "Easy",
@@ -43184,7 +43184,7 @@
   {
     "id": 1671,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -43221,7 +43221,7 @@
   {
     "id": 1672,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1671,
     "difficulty": "Medium",
@@ -43257,7 +43257,7 @@
   {
     "id": 1673,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -43294,7 +43294,7 @@
   {
     "id": 1674,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1673,
     "difficulty": "Medium",
@@ -43330,7 +43330,7 @@
   {
     "id": 1675,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -43367,7 +43367,7 @@
   {
     "id": 1676,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1675,
     "difficulty": "Easy",
@@ -43403,7 +43403,7 @@
   {
     "id": 1683,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -43440,7 +43440,7 @@
   {
     "id": 1770,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -43477,7 +43477,7 @@
   {
     "id": 1771,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1770,
     "difficulty": "Medium",
@@ -43513,7 +43513,7 @@
   {
     "id": 1772,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -43550,7 +43550,7 @@
   {
     "id": 1773,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1772,
     "difficulty": "Medium",
@@ -43586,7 +43586,7 @@
   {
     "id": 1780,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -43623,7 +43623,7 @@
   {
     "id": 1781,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1780,
     "difficulty": "Easy",
@@ -43659,7 +43659,7 @@
   {
     "id": 1782,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -43696,7 +43696,7 @@
   {
     "id": 1783,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1782,
     "difficulty": "Medium",
@@ -43732,7 +43732,7 @@
   {
     "id": 1786,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -43769,7 +43769,7 @@
   {
     "id": 1787,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1786,
     "difficulty": "Medium",
@@ -43805,7 +43805,7 @@
   {
     "id": 1788,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -43842,7 +43842,7 @@
   {
     "id": 1789,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1788,
     "difficulty": "Medium",
@@ -43878,7 +43878,7 @@
   {
     "id": 1790,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -43915,7 +43915,7 @@
   {
     "id": 1791,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1790,
     "difficulty": "Medium",
@@ -43951,7 +43951,7 @@
   {
     "id": 1873,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 1872,
     "difficulty": "Medium",
@@ -43987,7 +43987,7 @@
   {
     "id": 2044,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -44024,7 +44024,7 @@
   {
     "id": 2045,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2044,
     "difficulty": "Medium",
@@ -44060,7 +44060,7 @@
   {
     "id": 2046,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -44097,7 +44097,7 @@
   {
     "id": 2047,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2046,
     "difficulty": "Medium",
@@ -44133,7 +44133,7 @@
   {
     "id": 2071,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2070,
     "difficulty": "Easy",
@@ -44169,7 +44169,7 @@
   {
     "id": 2072,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -44206,7 +44206,7 @@
   {
     "id": 2146,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -44242,7 +44242,7 @@
   {
     "id": 2172,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2171,
     "difficulty": "Medium",
@@ -44279,7 +44279,7 @@
   {
     "id": 2628,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -44316,7 +44316,7 @@
   {
     "id": 2629,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2628,
     "difficulty": "Easy",
@@ -44352,7 +44352,7 @@
   {
     "id": 2630,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -44389,7 +44389,7 @@
   {
     "id": 2631,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2630,
     "difficulty": "Easy",
@@ -44425,7 +44425,7 @@
   {
     "id": 2632,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -44462,7 +44462,7 @@
   {
     "id": 2633,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2632,
     "difficulty": "Easy",
@@ -44498,7 +44498,7 @@
   {
     "id": 2724,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -44535,7 +44535,7 @@
   {
     "id": 2725,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2724,
     "difficulty": "Easy",
@@ -44571,7 +44571,7 @@
   {
     "id": 2756,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -44608,7 +44608,7 @@
   {
     "id": 2757,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2756,
     "difficulty": "Medium",
@@ -44644,7 +44644,7 @@
   {
     "id": 2758,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -44681,7 +44681,7 @@
   {
     "id": 2759,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2758,
     "difficulty": "Medium",
@@ -44717,7 +44717,7 @@
   {
     "id": 2760,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -44754,7 +44754,7 @@
   {
     "id": 2761,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2760,
     "difficulty": "Medium",
@@ -44790,7 +44790,7 @@
   {
     "id": 2762,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -44827,7 +44827,7 @@
   {
     "id": 2763,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2762,
     "difficulty": "Medium",
@@ -44863,7 +44863,7 @@
   {
     "id": 2766,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -44900,7 +44900,7 @@
   {
     "id": 2767,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2766,
     "difficulty": "Medium",
@@ -44936,7 +44936,7 @@
   {
     "id": 2768,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -44973,7 +44973,7 @@
   {
     "id": 2769,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2768,
     "difficulty": "Medium",
@@ -45009,7 +45009,7 @@
   {
     "id": 2772,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -45046,7 +45046,7 @@
   {
     "id": 2773,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2772,
     "difficulty": "Medium",
@@ -45082,7 +45082,7 @@
   {
     "id": 2774,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -45119,7 +45119,7 @@
   {
     "id": 2775,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2774,
     "difficulty": "Medium",
@@ -45155,7 +45155,7 @@
   {
     "id": 2776,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -45192,7 +45192,7 @@
   {
     "id": 2777,
     "module": "B-Fragen",
-    "topic": "B - Personenbeförderung, Ladung, Anhänger",
+    "topic": "Personenbeförderung, Ladung, Anhänger",
     "type": "supplementary",
     "parent_id": 2776,
     "difficulty": "Medium",
@@ -45228,7 +45228,7 @@
   {
     "id": 42,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -45265,7 +45265,7 @@
   {
     "id": 43,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 42,
     "difficulty": "Medium",
@@ -45301,7 +45301,7 @@
   {
     "id": 74,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -45338,7 +45338,7 @@
   {
     "id": 75,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 74,
     "difficulty": "Medium",
@@ -45374,7 +45374,7 @@
   {
     "id": 76,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -45410,7 +45410,7 @@
   {
     "id": 83,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 82,
     "difficulty": "Easy",
@@ -45446,7 +45446,7 @@
   {
     "id": 638,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -45483,7 +45483,7 @@
   {
     "id": 639,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 638,
     "difficulty": "Easy",
@@ -45519,7 +45519,7 @@
   {
     "id": 659,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -45556,7 +45556,7 @@
   {
     "id": 660,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 659,
     "difficulty": "Medium",
@@ -45592,7 +45592,7 @@
   {
     "id": 777,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -45628,7 +45628,7 @@
   {
     "id": 779,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 778,
     "difficulty": "Medium",
@@ -45664,7 +45664,7 @@
   {
     "id": 1494,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -45701,7 +45701,7 @@
   {
     "id": 1495,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1494,
     "difficulty": "Easy",
@@ -45737,7 +45737,7 @@
   {
     "id": 1499,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -45774,7 +45774,7 @@
   {
     "id": 1500,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1499,
     "difficulty": "Easy",
@@ -45810,7 +45810,7 @@
   {
     "id": 1501,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -45847,7 +45847,7 @@
   {
     "id": 1502,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1501,
     "difficulty": "Medium",
@@ -45883,7 +45883,7 @@
   {
     "id": 1504,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -45920,7 +45920,7 @@
   {
     "id": 1505,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1504,
     "difficulty": "Medium",
@@ -45956,7 +45956,7 @@
   {
     "id": 1506,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -45993,7 +45993,7 @@
   {
     "id": 1507,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1506,
     "difficulty": "Medium",
@@ -46030,7 +46030,7 @@
   {
     "id": 1508,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1507,
     "difficulty": "Medium",
@@ -46066,7 +46066,7 @@
   {
     "id": 1511,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -46103,7 +46103,7 @@
   {
     "id": 1512,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1511,
     "difficulty": "Medium",
@@ -46139,7 +46139,7 @@
   {
     "id": 1513,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -46176,7 +46176,7 @@
   {
     "id": 1514,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1513,
     "difficulty": "Medium",
@@ -46212,7 +46212,7 @@
   {
     "id": 1517,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -46249,7 +46249,7 @@
   {
     "id": 1518,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1517,
     "difficulty": "Medium",
@@ -46285,7 +46285,7 @@
   {
     "id": 1527,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -46322,7 +46322,7 @@
   {
     "id": 1528,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1527,
     "difficulty": "Medium",
@@ -46358,7 +46358,7 @@
   {
     "id": 1529,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -46395,7 +46395,7 @@
   {
     "id": 1530,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1529,
     "difficulty": "Medium",
@@ -46431,7 +46431,7 @@
   {
     "id": 1541,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -46468,7 +46468,7 @@
   {
     "id": 1542,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1541,
     "difficulty": "Easy",
@@ -46504,7 +46504,7 @@
   {
     "id": 1543,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -46541,7 +46541,7 @@
   {
     "id": 1544,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1543,
     "difficulty": "Medium",
@@ -46577,7 +46577,7 @@
   {
     "id": 1605,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -46614,7 +46614,7 @@
   {
     "id": 1606,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1605,
     "difficulty": "Easy",
@@ -46650,7 +46650,7 @@
   {
     "id": 1691,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -46687,7 +46687,7 @@
   {
     "id": 1692,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1691,
     "difficulty": "Medium",
@@ -46723,7 +46723,7 @@
   {
     "id": 1702,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -46760,7 +46760,7 @@
   {
     "id": 1703,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1702,
     "difficulty": "Easy",
@@ -46796,7 +46796,7 @@
   {
     "id": 1704,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -46833,7 +46833,7 @@
   {
     "id": 1705,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1704,
     "difficulty": "Medium",
@@ -46869,7 +46869,7 @@
   {
     "id": 1708,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -46906,7 +46906,7 @@
   {
     "id": 1709,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1708,
     "difficulty": "Easy",
@@ -46942,7 +46942,7 @@
   {
     "id": 1714,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -46979,7 +46979,7 @@
   {
     "id": 1715,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1714,
     "difficulty": "Medium",
@@ -47015,7 +47015,7 @@
   {
     "id": 1716,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -47052,7 +47052,7 @@
   {
     "id": 1717,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1716,
     "difficulty": "Medium",
@@ -47088,7 +47088,7 @@
   {
     "id": 1718,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -47125,7 +47125,7 @@
   {
     "id": 1719,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1718,
     "difficulty": "Medium",
@@ -47161,7 +47161,7 @@
   {
     "id": 1730,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -47198,7 +47198,7 @@
   {
     "id": 1731,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1730,
     "difficulty": "Medium",
@@ -47234,7 +47234,7 @@
   {
     "id": 1736,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -47271,7 +47271,7 @@
   {
     "id": 1737,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1736,
     "difficulty": "Medium",
@@ -47307,7 +47307,7 @@
   {
     "id": 1740,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -47344,7 +47344,7 @@
   {
     "id": 1741,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1740,
     "difficulty": "Easy",
@@ -47380,7 +47380,7 @@
   {
     "id": 1742,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -47417,7 +47417,7 @@
   {
     "id": 1743,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1742,
     "difficulty": "Easy",
@@ -47453,7 +47453,7 @@
   {
     "id": 1758,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -47490,7 +47490,7 @@
   {
     "id": 1759,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1758,
     "difficulty": "Medium",
@@ -47526,7 +47526,7 @@
   {
     "id": 1760,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -47563,7 +47563,7 @@
   {
     "id": 1761,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1760,
     "difficulty": "Medium",
@@ -47599,7 +47599,7 @@
   {
     "id": 1762,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -47636,7 +47636,7 @@
   {
     "id": 1763,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1762,
     "difficulty": "Easy",
@@ -47672,7 +47672,7 @@
   {
     "id": 1766,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -47709,7 +47709,7 @@
   {
     "id": 1767,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 1766,
     "difficulty": "Medium",
@@ -47746,7 +47746,7 @@
   {
     "id": 1769,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -47782,7 +47782,7 @@
   {
     "id": 2200,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -47818,7 +47818,7 @@
   {
     "id": 2315,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2314,
     "difficulty": "Medium",
@@ -47854,7 +47854,7 @@
   {
     "id": 2316,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -47891,7 +47891,7 @@
   {
     "id": 2317,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2316,
     "difficulty": "Easy",
@@ -47927,7 +47927,7 @@
   {
     "id": 2318,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -47963,7 +47963,7 @@
   {
     "id": 2324,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2323,
     "difficulty": "Easy",
@@ -47999,7 +47999,7 @@
   {
     "id": 2325,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -48036,7 +48036,7 @@
   {
     "id": 2326,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2325,
     "difficulty": "Easy",
@@ -48072,7 +48072,7 @@
   {
     "id": 2477,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -48108,7 +48108,7 @@
   {
     "id": 2488,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2487,
     "difficulty": "Easy",
@@ -48144,7 +48144,7 @@
   {
     "id": 2496,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -48181,7 +48181,7 @@
   {
     "id": 2497,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2496,
     "difficulty": "Medium",
@@ -48217,7 +48217,7 @@
   {
     "id": 2640,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -48254,7 +48254,7 @@
   {
     "id": 2641,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2640,
     "difficulty": "Medium",
@@ -48290,7 +48290,7 @@
   {
     "id": 2646,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -48327,7 +48327,7 @@
   {
     "id": 2647,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2646,
     "difficulty": "Easy",
@@ -48363,7 +48363,7 @@
   {
     "id": 2648,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -48400,7 +48400,7 @@
   {
     "id": 2649,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2648,
     "difficulty": "Easy",
@@ -48436,7 +48436,7 @@
   {
     "id": 2650,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -48473,7 +48473,7 @@
   {
     "id": 2651,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2650,
     "difficulty": "Medium",
@@ -48509,7 +48509,7 @@
   {
     "id": 2652,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -48546,7 +48546,7 @@
   {
     "id": 2653,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2652,
     "difficulty": "Medium",
@@ -48582,7 +48582,7 @@
   {
     "id": 2750,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -48619,7 +48619,7 @@
   {
     "id": 2751,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2750,
     "difficulty": "Easy",
@@ -48655,7 +48655,7 @@
   {
     "id": 2752,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -48692,7 +48692,7 @@
   {
     "id": 2753,
     "module": "B-Fragen",
-    "topic": "B - Fahrzeugtechnik, Winterbetrieb",
+    "topic": "Fahrzeugtechnik, Winterbetrieb",
     "type": "supplementary",
     "parent_id": 2752,
     "difficulty": "Easy",
@@ -48728,7 +48728,7 @@
   {
     "id": 20,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -48765,7 +48765,7 @@
   {
     "id": 21,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 20,
     "difficulty": "Medium",
@@ -48801,7 +48801,7 @@
   {
     "id": 37,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -48838,7 +48838,7 @@
   {
     "id": 38,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 37,
     "difficulty": "Medium",
@@ -48875,7 +48875,7 @@
   {
     "id": 238,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -48912,7 +48912,7 @@
   {
     "id": 239,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 238,
     "difficulty": "Medium",
@@ -48948,7 +48948,7 @@
   {
     "id": 337,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -48985,7 +48985,7 @@
   {
     "id": 338,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 337,
     "difficulty": "Medium",
@@ -49022,7 +49022,7 @@
   {
     "id": 386,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -49059,7 +49059,7 @@
   {
     "id": 387,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 386,
     "difficulty": "Medium",
@@ -49095,7 +49095,7 @@
   {
     "id": 518,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -49132,7 +49132,7 @@
   {
     "id": 519,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 518,
     "difficulty": "Medium",
@@ -49168,7 +49168,7 @@
   {
     "id": 1410,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -49205,7 +49205,7 @@
   {
     "id": 1411,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 1410,
     "difficulty": "Medium",
@@ -49241,7 +49241,7 @@
   {
     "id": 1563,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -49278,7 +49278,7 @@
   {
     "id": 1564,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 1563,
     "difficulty": "Medium",
@@ -49314,7 +49314,7 @@
   {
     "id": 1685,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -49351,7 +49351,7 @@
   {
     "id": 1686,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 1685,
     "difficulty": "Medium",
@@ -49387,7 +49387,7 @@
   {
     "id": 1796,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -49424,7 +49424,7 @@
   {
     "id": 1797,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 1796,
     "difficulty": "Medium",
@@ -49460,7 +49460,7 @@
   {
     "id": 1798,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -49497,7 +49497,7 @@
   {
     "id": 1799,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 1798,
     "difficulty": "Medium",
@@ -49533,7 +49533,7 @@
   {
     "id": 1806,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -49570,7 +49570,7 @@
   {
     "id": 1807,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 1806,
     "difficulty": "Medium",
@@ -49606,7 +49606,7 @@
   {
     "id": 1808,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -49643,7 +49643,7 @@
   {
     "id": 1809,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 1808,
     "difficulty": "Medium",
@@ -49679,7 +49679,7 @@
   {
     "id": 2004,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -49715,7 +49715,7 @@
   {
     "id": 2024,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2023,
     "difficulty": "Medium",
@@ -49751,7 +49751,7 @@
   {
     "id": 2100,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -49788,7 +49788,7 @@
   {
     "id": 2101,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2100,
     "difficulty": "Medium",
@@ -49824,7 +49824,7 @@
   {
     "id": 2116,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -49861,7 +49861,7 @@
   {
     "id": 2117,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2116,
     "difficulty": "Easy",
@@ -49897,7 +49897,7 @@
   {
     "id": 2118,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -49933,7 +49933,7 @@
   {
     "id": 2137,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2136,
     "difficulty": "Easy",
@@ -49970,7 +49970,7 @@
   {
     "id": 2188,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -50007,7 +50007,7 @@
   {
     "id": 2189,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2188,
     "difficulty": "Easy",
@@ -50043,7 +50043,7 @@
   {
     "id": 2190,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -50080,7 +50080,7 @@
   {
     "id": 2191,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2190,
     "difficulty": "Easy",
@@ -50117,7 +50117,7 @@
   {
     "id": 2196,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -50154,7 +50154,7 @@
   {
     "id": 2197,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2196,
     "difficulty": "Easy",
@@ -50190,7 +50190,7 @@
   {
     "id": 2440,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -50227,7 +50227,7 @@
   {
     "id": 2441,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2440,
     "difficulty": "Medium",
@@ -50263,7 +50263,7 @@
   {
     "id": 2538,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -50300,7 +50300,7 @@
   {
     "id": 2539,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2538,
     "difficulty": "Medium",
@@ -50336,7 +50336,7 @@
   {
     "id": 2732,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -50373,7 +50373,7 @@
   {
     "id": 2733,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2732,
     "difficulty": "Medium",
@@ -50409,7 +50409,7 @@
   {
     "id": 2734,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -50446,7 +50446,7 @@
   {
     "id": 2735,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2734,
     "difficulty": "Medium",
@@ -50482,7 +50482,7 @@
   {
     "id": 2738,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -50519,7 +50519,7 @@
   {
     "id": 2739,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2738,
     "difficulty": "Easy",
@@ -50555,7 +50555,7 @@
   {
     "id": 2742,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -50592,7 +50592,7 @@
   {
     "id": 2743,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2742,
     "difficulty": "Easy",
@@ -50628,7 +50628,7 @@
   {
     "id": 2744,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -50665,7 +50665,7 @@
   {
     "id": 2745,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2744,
     "difficulty": "Medium",
@@ -50701,7 +50701,7 @@
   {
     "id": 2746,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -50738,7 +50738,7 @@
   {
     "id": 2747,
     "module": "B-Fragen",
-    "topic": "B - Gefahrenlehre, Antriebe, Pannen",
+    "topic": "Gefahrenlehre, Antriebe, Pannen",
     "type": "supplementary",
     "parent_id": 2746,
     "difficulty": "Easy",
@@ -50774,7 +50774,7 @@
   {
     "id": 25,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -50811,7 +50811,7 @@
   {
     "id": 26,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 25,
     "difficulty": "Medium",
@@ -50847,7 +50847,7 @@
   {
     "id": 29,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -50884,7 +50884,7 @@
   {
     "id": 30,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 29,
     "difficulty": "Medium",
@@ -50920,7 +50920,7 @@
   {
     "id": 65,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -50957,7 +50957,7 @@
   {
     "id": 66,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 65,
     "difficulty": "Easy",
@@ -50993,7 +50993,7 @@
   {
     "id": 86,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -51030,7 +51030,7 @@
   {
     "id": 87,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 86,
     "difficulty": "Medium",
@@ -51066,7 +51066,7 @@
   {
     "id": 90,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -51103,7 +51103,7 @@
   {
     "id": 91,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 90,
     "difficulty": "Medium",
@@ -51139,7 +51139,7 @@
   {
     "id": 131,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -51176,7 +51176,7 @@
   {
     "id": 132,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 131,
     "difficulty": "Medium",
@@ -51212,7 +51212,7 @@
   {
     "id": 133,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -51249,7 +51249,7 @@
   {
     "id": 134,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 133,
     "difficulty": "Easy",
@@ -51285,7 +51285,7 @@
   {
     "id": 144,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -51322,7 +51322,7 @@
   {
     "id": 145,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 144,
     "difficulty": "Easy",
@@ -51358,7 +51358,7 @@
   {
     "id": 1519,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -51395,7 +51395,7 @@
   {
     "id": 1520,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 1519,
     "difficulty": "Medium",
@@ -51431,7 +51431,7 @@
   {
     "id": 1521,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -51468,7 +51468,7 @@
   {
     "id": 1522,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 1521,
     "difficulty": "Easy",
@@ -51504,7 +51504,7 @@
   {
     "id": 1523,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -51541,7 +51541,7 @@
   {
     "id": 1524,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 1523,
     "difficulty": "Medium",
@@ -51577,7 +51577,7 @@
   {
     "id": 1525,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -51614,7 +51614,7 @@
   {
     "id": 1526,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 1525,
     "difficulty": "Easy",
@@ -51650,7 +51650,7 @@
   {
     "id": 1720,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Easy",
@@ -51687,7 +51687,7 @@
   {
     "id": 1721,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 1720,
     "difficulty": "Easy",
@@ -51723,7 +51723,7 @@
   {
     "id": 1722,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Medium",
@@ -51760,7 +51760,7 @@
   {
     "id": 1723,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 1722,
     "difficulty": "Medium",
@@ -51796,7 +51796,7 @@
   {
     "id": 1724,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -51833,7 +51833,7 @@
   {
     "id": 1725,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 1724,
     "difficulty": "Medium",
@@ -51869,7 +51869,7 @@
   {
     "id": 1728,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -51906,7 +51906,7 @@
   {
     "id": 1729,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 1728,
     "difficulty": "Medium",
@@ -51942,7 +51942,7 @@
   {
     "id": 2498,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -51979,7 +51979,7 @@
   {
     "id": 2499,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 2498,
     "difficulty": "Medium",
@@ -52015,7 +52015,7 @@
   {
     "id": 2519,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "main",
     "parent_id": null,
     "difficulty": "Hard",
@@ -52052,7 +52052,7 @@
   {
     "id": 2520,
     "module": "B-Fragen",
-    "topic": "B - Fahrdynamik, Bremsanlage",
+    "topic": "Fahrdynamik, Bremsanlage",
     "type": "supplementary",
     "parent_id": 2519,
     "difficulty": "Medium",
