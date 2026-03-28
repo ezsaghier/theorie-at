@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { getT } from '../i18n';
 
-export default function Topbar({ setLang, toggleTheme, theme, lang }) {
+export default function Topbar({ 
+  setLang, toggleTheme, theme, lang, 
+  questionIdSearchText, setQuestionIdSearchText, handleQuestionSearch 
+}) {
   const [langMenuOpen, setLangMenuOpen] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -18,6 +21,37 @@ export default function Topbar({ setLang, toggleTheme, theme, lang }) {
   return (
     <div className="topbar" dir="ltr">
       <a className="logo" href="#" onClick={(e) => { e.preventDefault(); setLang('de'); }}>Theorie<span>Test</span>.at</a>
+      
+      {handleQuestionSearch && (
+        <div className="topbar-center">
+          <button 
+            className="h-menu-btn" 
+            disabled
+            style={{ opacity: 0.5, cursor: 'not-allowed' }}
+          >
+            {getT(lang, 'navHardQuestions')}
+          </button>
+          
+          <div className="h-menu-search">
+            <span>{getT(lang, 'navSearchQuestion')}</span>
+            <input 
+              type="text" 
+              placeholder={getT(lang, 'searchNumberPlaceholder')}
+              value={questionIdSearchText || ''}
+              onChange={(e) => {
+                const val = e.target.value;
+                if (val === '' || /^[0-9]+$/.test(val)) {
+                  setQuestionIdSearchText(val);
+                }
+              }}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') handleQuestionSearch();
+              }}
+            />
+          </div>
+        </div>
+      )}
+
       <div className="topbar-right">
         <div className="lang-dropdown" ref={dropdownRef}>
           <button 

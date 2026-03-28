@@ -2,7 +2,7 @@ import React from 'react';
 
 import { getT, getTopic } from '../i18n';
 
-export default function Sidebar({ filters, setFilters, topics, activeTopic, setActiveTopic, lang }) {
+export default function Sidebar({ filters, setFilters, topics, activeTopics, handleToggleTopic, handleToggleModule, handleResetFilters, lang }) {
   const diffs = ['ALL', 'Hard'];
 
   const clickChip = (group, val) => {
@@ -31,26 +31,26 @@ export default function Sidebar({ filters, setFilters, topics, activeTopic, setA
             ))}
           </div>
         </div>
+        
+        <button className="reset-btn" onClick={handleResetFilters} style={{marginTop: '16px'}}>
+          {getT(lang, 'reset')}
+        </button>
       </div>
 
       <div className="topic-list">
-        <div 
-          className={`topic-item ${activeTopic === 'all' ? 'active' : ''}`}
-          onClick={() => setActiveTopic('all')}
-        >
-          <div className="topic-name">{getT(lang, 'allTopics')}</div>
-        </div>
-        
         {topics.filter(t => t.module === 'Grundwissen').length > 0 && (
-          <div className="module-header">
+          <div 
+            className="module-header clickable-header"
+            onClick={() => handleToggleModule(topics.filter(t => t.module === 'Grundwissen').map(t => t.id))}
+          >
             {getTopic(lang, 'Grundwissen')}
           </div>
         )}
         {topics.filter(t => t.module === 'Grundwissen').map(({ id, name, count }) => (
           <div 
             key={id}
-            className={`topic-item ${activeTopic === id ? 'active' : ''}`}
-            onClick={() => setActiveTopic(id)}
+            className={`topic-item ${activeTopics.includes(id) ? 'active' : ''}`}
+            onClick={() => handleToggleTopic(id)}
           >
             <div className="topic-name">{name}</div>
             <div className="topic-cnt">{count}</div>
@@ -58,15 +58,18 @@ export default function Sidebar({ filters, setFilters, topics, activeTopic, setA
         ))}
 
         {topics.filter(t => t.module === 'B-Fragen').length > 0 && (
-          <div className="module-header">
+          <div 
+            className="module-header clickable-header"
+            onClick={() => handleToggleModule(topics.filter(t => t.module === 'B-Fragen').map(t => t.id))}
+          >
             {getTopic(lang, 'B-Fragen')}
           </div>
         )}
         {topics.filter(t => t.module === 'B-Fragen').map(({ id, name, count }) => (
           <div 
             key={id}
-            className={`topic-item ${activeTopic === id ? 'active' : ''}`}
-            onClick={() => setActiveTopic(id)}
+            className={`topic-item ${activeTopics.includes(id) ? 'active' : ''}`}
+            onClick={() => handleToggleTopic(id)}
           >
             <div className="topic-name">{name}</div>
             <div className="topic-cnt">{count}</div>
