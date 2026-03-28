@@ -3,26 +3,60 @@ import QuestionCard from './QuestionCard';
 
 export default function TestView({ setTopLevelView, toggleTheme, theme }) {
   const [testQuestion, setTestQuestion] = useState(null);
-  const [allQuestions, setAllQuestions] = useState([]);
-  const lang = 'en';
+  const [catalogs, setCatalogs] = useState({ ar: [], en: [], de: [] });
+  const [langIndex, setLangIndex] = useState(0);
+  
+  const langs = ['ar', 'en', 'de'];
+  const currentLang = langs[langIndex];
 
   useEffect(() => {
-    fetch(`/question_catalog_${lang}.json`)
-      .then(res => res.json())
-      .then(data => {
-        setAllQuestions(data);
-        generateRandomQuestion(data);
-      })
-      .catch(err => console.error("Error loading DB in Test Mode:", err));
+    if (currentLang === 'ar') {
+      document.documentElement.setAttribute('dir', 'rtl');
+      document.documentElement.setAttribute('lang', 'ar');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+      document.documentElement.setAttribute('lang', currentLang);
+    }
+  }, [currentLang]);
+
+  useEffect(() => {
+    const initialDir = document.documentElement.getAttribute('dir');
+    const initialLang = document.documentElement.getAttribute('lang');
+    return () => {
+      document.documentElement.setAttribute('dir', initialDir || 'ltr');
+      document.documentElement.setAttribute('lang', initialLang || 'de');
+    };
   }, []);
 
-  const generateRandomQuestion = (db) => {
-    const dataSource = db || allQuestions;
-    const hardMain = dataSource.filter(q => q.type === 'main' && q.difficulty === 'Hard');
-    if (hardMain.length > 0) {
-      const rnd = Math.floor(Math.random() * hardMain.length);
-      setTestQuestion(hardMain[rnd]);
+  useEffect(() => {
+    Promise.all([
+      fetch('/question_catalog_ar.json').then(res => res.json()),
+      fetch('/question_catalog_en.json').then(res => res.json()),
+      fetch('/question_catalog_de.json').then(res => res.json())
+    ])
+      .then(([ar, en, de]) => {
+        const dbs = { ar, en, de };
+        setCatalogs(dbs);
+        generateRandomQuestion(dbs, 0);
+      })
+      .catch(err => console.error("Error loading DBs in Test Mode:", err));
+  }, []);
+
+  const generateRandomQuestion = (dbs, idx) => {
+    const lang = langs[idx];
+    const db = dbs[lang];
+    if (!db || db.length === 0) return;
+    const hardMainWithSup = db.filter(q => q.type === 'main' && q.difficulty === 'Hard' && q.sub_id != null);
+    if (hardMainWithSup.length > 0) {
+      const rnd = Math.floor(Math.random() * hardMainWithSup.length);
+      setTestQuestion(hardMainWithSup[rnd]);
     }
+  };
+
+  const handleNextQuestion = () => {
+    const nextIdx = (langIndex + 1) % langs.length;
+    setLangIndex(nextIdx);
+    generateRandomQuestion(catalogs, nextIdx);
   };
 
   return (
@@ -51,11 +85,11 @@ export default function TestView({ setTopLevelView, toggleTheme, theme }) {
       <div className="main" style={{ padding: 0 }}>
         {testQuestion ? (
           <>
-            <QuestionCard key={testQuestion.id} q={testQuestion} allQuestions={allQuestions} lang={lang} />
+            <QuestionCard key={`${currentLang}-${testQuestion.id}`} q={testQuestion} allQuestions={catalogs[currentLang]} lang={currentLang} />
             <div className="load-more-wrap" style={{ marginTop: '30px' }}>
               <button 
                 className="load-more-btn" 
-                onClick={() => generateRandomQuestion(null)}
+                onClick={handleNextQuestion}
                 style={{ borderColor: 'var(--accent)', color: 'var(--accent)', padding: '12px 30px', fontSize: '15px' }}
               >
                 Next Random Question →

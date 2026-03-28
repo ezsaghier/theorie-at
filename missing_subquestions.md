@@ -1,0 +1,70 @@
+# أسئلة رئيسية بدون أسئلة فرعية (Supplementary Questions)
+
+- **سؤال #5** | الموضوع: Wahl der Fahrgeschwindigkeit | القسم: Grundwissen
+- **سؤال #19** | الموضوع: Überholen | القسم: Grundwissen
+- **سؤال #24** | الموضوع: Überholen | القسم: Grundwissen
+- **سؤال #44** | الموضوع: Halten, Parken / Umkehren, Linkszufahren | القسم: Grundwissen
+- **سؤال #60** | الموضوع: Fahrgeschwindigkeit und Sichtweite | القسم: Grundwissen
+- **سؤال #76** | الموضوع: Fahrzeugtechnik, Winterbetrieb | القسم: B-Fragen
+- **سؤال #139** | الموضوع: Fahrgeschwindigkeit und Sichtweite | القسم: Grundwissen
+- **سؤال #213** | الموضوع: Fahrgeschwindigkeit und Sichtweite | القسم: Grundwissen
+- **سؤال #381** | الموضوع: Allgemeine Fahrordnung, Tunnel | القسم: Grundwissen
+- **سؤال #398** | الموضوع: Fahrtauglichkeit, Gefahrenlehre | القسم: Grundwissen
+- **سؤال #457** | الموضوع: Hinweiszeichen | القسم: Grundwissen
+- **سؤال #514** | الموضوع: Verbotszeichen | القسم: Grundwissen
+- **سؤال #515** | الموضوع: Überholen | القسم: Grundwissen
+- **سؤال #520** | الموضوع: Bewegen im Verkehr | القسم: Grundwissen
+- **سؤال #521** | الموضوع: Rechtsvorschriften | القسم: B-Fragen
+- **سؤال #530** | الموضوع: Überholen | القسم: Grundwissen
+- **سؤال #609** | الموضوع: Überholen | القسم: Grundwissen
+- **سؤال #689** | الموضوع: Rechtsvorschriften | القسم: B-Fragen
+- **سؤال #757** | الموضوع: Geregelte Kreuzungen | القسم: Grundwissen
+- **سؤال #758** | الموضوع: Geregelte Kreuzungen | القسم: Grundwissen
+- **سؤال #777** | الموضوع: Fahrzeugtechnik, Winterbetrieb | القسم: B-Fragen
+- **سؤال #782** | الموضوع: Allgemeine Fahrordnung, Tunnel | القسم: Grundwissen
+- **سؤال #801** | الموضوع: Lenkerpflichten, Vormerkungen, Unfall | القسم: Grundwissen
+- **سؤال #806** | الموضوع: Bewegen im Verkehr | القسم: Grundwissen
+- **سؤال #824** | الموضوع: Fahrgeschwindigkeit und Sichtweite | القسم: Grundwissen
+- **سؤال #840** | الموضوع: Allgemeine Fahrordnung, Tunnel | القسم: Grundwissen
+- **سؤال #1045** | الموضوع: Halten, Parken / Umkehren, Linkszufahren | القسم: Grundwissen
+- **سؤال #1088** | الموضوع: Verbotszeichen | القسم: Grundwissen
+- **سؤال #1089** | الموضوع: Halten, Parken / Umkehren, Linkszufahren | القسم: Grundwissen
+- **سؤال #1129** | الموضوع: Hinweiszeichen | القسم: Grundwissen
+- **سؤال #1293** | الموضوع: Hinweiszeichen | القسم: Grundwissen
+- **سؤال #1306** | الموضوع: Verbotszeichen | القسم: Grundwissen
+- **سؤال #1324** | الموضوع: Fahrtauglichkeit, Gefahrenlehre | القسم: Grundwissen
+- **سؤال #1336** | الموضوع: Fahrtauglichkeit, Gefahrenlehre | القسم: Grundwissen
+- **سؤال #1342** | الموضوع: Fahrtauglichkeit, Gefahrenlehre | القسم: Grundwissen
+- **سؤال #1402** | الموضوع: Rechtsvorschriften | القسم: B-Fragen
+- **سؤال #1407** | الموضوع: Personenbeförderung, Ladung, Anhänger | القسم: B-Fragen
+- **سؤال #1452** | الموضوع: Geregelte Kreuzungen | القسم: Grundwissen
+- **سؤال #1453** | الموضوع: Geregelte Kreuzungen | القسم: Grundwissen
+- **سؤال #1491** | الموضوع: Partnerkunde | القسم: Grundwissen
+- **سؤال #1599** | الموضوع: Fahrtauglichkeit, Gefahrenlehre | القسم: Grundwissen
+- **سؤال #1602** | الموضوع: Rechtsvorschriften | القسم: B-Fragen
+- **سؤال #1635** | الموضوع: Lenkerpflichten, Vormerkungen, Unfall | القسم: Grundwissen
+- **سؤال #1681** | الموضوع: Rechtsvorschriften | القسم: B-Fragen
+- **سؤال #1682** | الموضوع: Allgemeine Fahrordnung, Tunnel | القسم: Grundwissen
+- **سؤال #1769** | الموضوع: Fahrzeugtechnik, Winterbetrieb | القسم: B-Fragen
+- **سؤال #1776** | الموضوع: Rechtsvorschriften | القسم: B-Fragen
+- **سؤال #1978** | الموضوع: Lenkerpflichten, Vormerkungen, Unfall | القسم: Grundwissen
+- **سؤال #2004** | الموضوع: Gefahrenlehre, Antriebe, Pannen | القسم: B-Fragen
+- **سؤال #2031** | الموضوع: Rechtsvorschriften | القسم: B-Fragen
+- **سؤال #2057** | الموضوع: Fahrtauglichkeit, Gefahrenlehre | القسم: Grundwissen
+- **سؤال #2075** | الموضوع: Lenkerpflichten, Vormerkungen, Unfall | القسم: Grundwissen
+- **سؤال #2118** | الموضوع: Gefahrenlehre, Antriebe, Pannen | القسم: B-Fragen
+- **سؤال #2127** | الموضوع: Fahrtauglichkeit, Gefahrenlehre | القسم: Grundwissen
+- **سؤال #2141** | الموضوع: Lenkerpflichten, Vormerkungen, Unfall | القسم: Grundwissen
+- **سؤال #2146** | الموضوع: Personenbeförderung, Ladung, Anhänger | القسم: B-Fragen
+- **سؤال #2187** | الموضوع: Besondere Verkehrsräume | القسم: Grundwissen
+- **سؤال #2195** | الموضوع: Besondere Verkehrsräume | القسم: Grundwissen
+- **سؤال #2200** | الموضوع: Fahrzeugtechnik, Winterbetrieb | القسم: B-Fragen
+- **سؤال #2318** | الموضوع: Fahrzeugtechnik, Winterbetrieb | القسم: B-Fragen
+- **سؤال #2328** | الموضوع: Allgemeine Fahrordnung, Tunnel | القسم: Grundwissen
+- **سؤال #2330** | الموضوع: Besondere Verkehrsräume | القسم: Grundwissen
+- **سؤال #2477** | الموضوع: Fahrzeugtechnik, Winterbetrieb | القسم: B-Fragen
+- **سؤال #2522** | الموضوع: Hinweiszeichen | القسم: Grundwissen
+- **سؤال #2608** | الموضوع: Allgemeine Fahrordnung, Tunnel | القسم: Grundwissen
+- **سؤال #2611** | الموضوع: Allgemeine Fahrordnung, Tunnel | القسم: Grundwissen
+- **سؤال #2620** | الموضوع: Allgemeine Fahrordnung, Tunnel | القسم: Grundwissen
+- **سؤال #2624** | الموضوع: Allgemeine Fahrordnung, Tunnel | القسم: Grundwissen
