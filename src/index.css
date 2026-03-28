@@ -295,6 +295,13 @@ h1 span { color: var(--accent); }
         z-index: 100;
         gap: 12px;
       }
+      .topbar-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        flex: 1;
+      }
       .logo {
         font-size: 17px;
         font-weight: 800;
@@ -380,17 +387,7 @@ h1 span { color: var(--accent); }
         background: var(--surface2);
         color: var(--accent);
       }
-      .horizontal-menu {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        padding: 10px 20px;
-        background: var(--surface2);
-        border-bottom: 1px solid var(--border);
-        position: sticky;
-        top: 52px;
-        z-index: 99;
-      }
+
       .h-menu-btn {
         background: var(--surface);
         border: 1px solid var(--border);
@@ -415,7 +412,6 @@ h1 span { color: var(--accent); }
         display: flex;
         align-items: center;
         gap: 8px;
-        margin-inline-start: auto;
         font-family: "DM Mono", monospace;
         font-size: 12px;
         color: var(--muted);
@@ -442,9 +438,9 @@ h1 span { color: var(--accent); }
       .sidebar {
         background: var(--surface);
         border-inline-end: 1px solid var(--border);
-        height: calc(100vh - 105px);
+        height: calc(100vh - 52px);
         position: sticky;
-        top: 105px;
+        top: 52px;
         overflow-y: auto;
         scrollbar-width: thin;
         scrollbar-color: var(--border) transparent;
@@ -593,6 +589,13 @@ h1 span { color: var(--accent); }
         position: sticky;
         top: 0;
         z-index: 5;
+      }
+      .clickable-header {
+        cursor: pointer;
+        transition: background 0.15s;
+      }
+      .clickable-header:hover {
+        background: var(--border);
       }
       .module-cnt {
         font-size: 13px;

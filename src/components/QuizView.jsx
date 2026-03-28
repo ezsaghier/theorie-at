@@ -13,8 +13,9 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
     return saved ? JSON.parse(saved) : { diff: null, type: null };
   });
   
-  const [activeTopic, setActiveTopic] = useState(() => {
-    return localStorage.getItem('quiz_topic') || 'all';
+  const [activeTopics, setActiveTopics] = useState(() => {
+    const saved = localStorage.getItem('quiz_topics');
+    return saved ? JSON.parse(saved) : [];
   });
 
   const [visibleCount, setVisibleCount] = useState(20);
@@ -24,17 +25,47 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
 
   useEffect(() => {
     localStorage.setItem('quiz_filters', JSON.stringify(filters));
-    localStorage.setItem('quiz_topic', activeTopic);
-  }, [filters, activeTopic]);
+    localStorage.setItem('quiz_topics', JSON.stringify(activeTopics));
+  }, [filters, activeTopics]);
 
-  const handleSetTopic = (val) => {
-    setActiveTopic(val);
+  const handleToggleTopic = (topicId) => {
+    setActiveTopics(prev => prev.includes(topicId) ? prev.filter(id => id !== topicId) : [...prev, topicId]);
+    setActiveQuestionId('');
+    setQuestionIdSearchText('');
+  };
+
+  const handleToggleModule = (moduleTopicIds) => {
+    setActiveTopics(prev => {
+      const allIncluded = moduleTopicIds.every(id => prev.includes(id));
+      if (allIncluded) {
+        return prev.filter(id => !moduleTopicIds.includes(id));
+      } else {
+        const next = [...prev];
+        moduleTopicIds.forEach(id => {
+          if (!next.includes(id)) next.push(id);
+        });
+        return next;
+      }
+    });
     setActiveQuestionId('');
     setQuestionIdSearchText('');
   };
 
   const handleSetFilters = (valUpdater) => {
     setFilters(valUpdater);
+    setActiveQuestionId('');
+    setQuestionIdSearchText('');
+  };
+
+  const handleQuestionSearch = () => {
+    setActiveQuestionId(questionIdSearchText);
+    setFilters({ diff: null });
+    setActiveTopics([]);
+  };
+
+  const handleResetFilters = () => {
+    setFilters({ diff: null });
+    setActiveTopics([]);
     setActiveQuestionId('');
     setQuestionIdSearchText('');
   };
@@ -49,8 +80,14 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
 
   const topicsMap = useMemo(() => {
     const map = {};
+    // Ensure all topics exist in map
     allQuestions.forEach(q => {
       if (!map[q.topic]) map[q.topic] = { count: 0, module: q.module };
+    });
+    
+    // Count only questions matching the current diff filter
+    const filteredForCounts = allQuestions.filter(q => filters.diff === null || q.difficulty === filters.diff);
+    filteredForCounts.forEach(q => {
       map[q.topic].count++;
     });
     
@@ -62,7 +99,7 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
     }));
     
     return topicList.sort((a, b) => b.count - a.count);
-  }, [allQuestions]);
+  }, [allQuestions, filters.diff]);
 
   const filteredQuestions = useMemo(() => {
     if (activeQuestionId) {
@@ -72,17 +109,17 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
 
     return allQuestions.filter(q => {
       const matchDiff = filters.diff === null || q.difficulty === filters.diff;
-      const matchTopic = activeTopic === 'all' || q.topic === activeTopic;
+      const matchTopic = activeTopics.length === 0 || activeTopics.includes(q.topic);
       return matchTopic && matchDiff;
     });
-  }, [allQuestions, activeTopic, filters, activeQuestionId]);
+  }, [allQuestions, activeTopics, filters, activeQuestionId]);
 
   const questionsToShow = filteredQuestions.slice(0, visibleCount);
 
   useEffect(() => {
     // Reset pagination when any filter fires
     setVisibleCount(20);
-  }, [activeTopic, filters, activeQuestionId]);
+  }, [activeTopics, filters, activeQuestionId]);
 
   return (
     <>
@@ -91,48 +128,22 @@ export default function QuizView({ lang, setLang, toggleTheme, theme }) {
         toggleTheme={toggleTheme} 
         theme={theme} 
         lang={lang}
+        
+        questionIdSearchText={questionIdSearchText}
+        setQuestionIdSearchText={setQuestionIdSearchText}
+        handleQuestionSearch={handleQuestionSearch}
       />
-      <div className="horizontal-menu">
-        <button 
-          className="h-menu-btn" 
-          disabled
-          style={{ opacity: 0.5, cursor: 'not-allowed' }}
-        >
-          {getT(lang, 'navHardQuestions')}
-        </button>
-        <div className="h-menu-search">
-          <span>{getT(lang, 'navSearchQuestion')}</span>
-          <input 
-            type="text" 
-            placeholder={getT(lang, 'searchNumberPlaceholder')}
-            value={questionIdSearchText}
-            onChange={(e) => {
-              const val = e.target.value;
-              if (val === '' || /^[0-9]+$/.test(val)) {
-                setQuestionIdSearchText(val);
-              }
-            }}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter') {
-                setActiveQuestionId(questionIdSearchText);
-              }
-            }}
-          />
-        </div>
-      </div>
       <div className="layout">
         <Sidebar 
           filters={filters} setFilters={handleSetFilters}
           topics={topicsMap} lang={lang} 
-          activeTopic={activeTopic} setActiveTopic={handleSetTopic}
+          activeTopics={activeTopics} 
+          handleToggleTopic={handleToggleTopic}
+          handleToggleModule={handleToggleModule}
+          handleResetFilters={handleResetFilters}
         />
         <div className="main-wrap">
           <div className="main">
-             <div className="results-info">
-               <span className="results-count">{filteredQuestions.length}</span> {getT(lang, 'questions')}
-               {filters.diff && <span className="filter-tag">{getT(lang, filters.diff)}</span>}
-               {activeTopic !== 'all' && <span className="filter-tag">📍 {getTopic(lang, activeTopic)}</span>}
-             </div>
              
              {questionsToShow.map(q => (
                <QuestionCard key={q.id} q={q} allQuestions={allQuestions} lang={lang} />
